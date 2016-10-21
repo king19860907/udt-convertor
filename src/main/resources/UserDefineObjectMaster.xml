@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dataSet_xmlFile>
+	<UserDefineObjectMaset Code="UAOCND" Name="查询条件表" TableName="U_AOCND" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UAOPRM" Name="系统参数表" TableName="U_AOPRM" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UCOCIT" Name="成本分析项主表" TableName="U_COCIT" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UCOITM" Name="产品标准成本主表" TableName="U_COITM" TYPE="3" MngSeries="Y" CanDelete="Y" CanClose="Y" CanCancel="Y" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UFOCTR" Name="成本中心与工序对应表" TableName="U_FOCTR" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UFOJTY" Name="财务凭证编号" TableName="U_FOJTY" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UFOTLR" Name="转换差异规则" TableName="U_FOTLR" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL10" Name="UIICL10" TableName="U_IICL10" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL2" Name="UIICL2" TableName="U_IICL2" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL3" Name="UIICL3" TableName="U_IICL3" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL4" Name="UIICL4" TableName="U_IICL4" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL5" Name="UIICL5" TableName="U_IICL5" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL6" Name="UIICL6" TableName="U_IICL6" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL7" Name="UIICL7" TableName="U_IICL7" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL8" Name="UIICL8" TableName="U_IICL8" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIICL9" Name="UIICL9" TableName="U_IICL9" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UIOTRN" Name="库存交易事务维护" TableName="U_IOTRN" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOBRL" Name="批次规则维护" TableName="U_POBRL" TYPE="1" MngSeries="N" CanDelete="N" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOFIN" Name="孵化器" TableName="U_POFIN" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="Y" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOFOT" Name="出雏器" TableName="U_POFOT" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="Y" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOKTY" Name="品种指标" TableName="U_POKTY" TYPE="1" MngSeries="N" CanDelete="N" CanClose="N" CanCancel="N" ExtName="" CanFind="Y" CanYrTrnsf="N" CanDefForm="Y" CanLog="Y" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOMED" Name="加药标示" TableName="U_POMED" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOPLT" Name="工艺路线" TableName="U_POPLT" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="UPOPRO" Name="工序" TableName="U_POPRO" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USBCL2" Name="USBCL2" TableName="U_SBCL2" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="Y" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USBCL3" Name="USBCL3" TableName="U_SBCL3" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USBCL4" Name="USBCL4" TableName="U_SBCL4" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USBCL5" Name="USBCL5" TableName="U_SBCL5" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USORPL" Name="报表清单(报表工具)" TableName="U_SORPL" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	<UserDefineObjectMaset Code="USOTCT" Name="后台控制表" TableName="U_SOTCT" TYPE="1" MngSeries="N" CanDelete="Y" CanClose="N" CanCancel="N" ExtName="" CanFind="N" CanYrTrnsf="N" CanDefForm="Y" CanLog="N" OvrWrtDll="Y" />
+	</dataSet_xmlFile>

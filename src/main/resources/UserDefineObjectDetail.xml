@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dataSet_xmlFile>
+	<UserDefineObjectDetail Code="UCOCIT" SonNum="1" TableName="U_CCIT1" />
+	<UserDefineObjectDetail Code="UCOITM" SonNum="1" TableName="U_CITM1" />
+	<UserDefineObjectDetail Code="UFOCTR" SonNum="1" TableName="U_FCTR1" />
+	<UserDefineObjectDetail Code="UFOJTY" SonNum="1" TableName="U_FJTY1" />
+	<UserDefineObjectDetail Code="UIOTRN" SonNum="1" TableName="U_ITRN1" />
+	<UserDefineObjectDetail Code="UPOKTY" SonNum="1" TableName="U_PKTY1" />
+	<UserDefineObjectDetail Code="UPOKTY" SonNum="2" TableName="U_PKTY2" />
+	<UserDefineObjectDetail Code="UPOPLT" SonNum="1" TableName="U_PPLT1" />
+	<UserDefineObjectDetail Code="USBCL2" SonNum="1" TableName="U_SBC21" />
+	</dataSet_xmlFile>

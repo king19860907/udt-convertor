@@ -1,0 +1,1347 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dataSet_xmlFile>
+	<UserDefineField TableID="@AU_PKTY1" FieldID="0" AliasID="CWeekAge" Descr="周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="1" AliasID="MFeedNum" Descr="种鸡公鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="2" AliasID="FFeedNum" Descr="种鸡母鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="3" AliasID="DFeedNum" Descr="肉鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="4" AliasID="MStdQty" Descr="公鸡标准消耗数量(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="5" AliasID="FStdQty" Descr="母鸡标准消耗量(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="6" AliasID="MixFeedQty" Descr="混饲标准消耗量（g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="7" AliasID="MStdDR" Descr="标准公鸡死淘率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="8" AliasID="FStdDR" Descr="标准母鸡死淘率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="9" AliasID="MStdAW" Descr="标准平均公鸡体重(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="10" AliasID="FStdAW" Descr="标准平均母鸡体重(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="11" AliasID="MixStdAW" Descr="标准混饲平均体重（g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="12" AliasID="EggStdR" Descr="标准产蛋率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="13" AliasID="EggStdQ" Descr="标准产蛋量(枚)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="14" AliasID="HegStdR" Descr="标准种蛋率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="15" AliasID="HegStdQ" Descr="标准种蛋数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="16" AliasID="FEStdR" Descr="标准料蛋比/枚" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="17" AliasID="FeiEggStdR" Descr="标准受精蛋比例(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="18" AliasID="CHStdRate" Descr="标准出雏率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="19" AliasID="SCStdRate" Descr="标准健雏率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="20" AliasID="SCStdQty" Descr="标准健雏数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="21" AliasID="FeedLRate" Descr="标准料肉比" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="23" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="24" AliasID="EggWStd" Descr="标准蛋重" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="25" AliasID="HaEggWStd" Descr="标准种蛋重" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="26" AliasID="EWeekAge" Descr="蛋龄" TypeID="N" EditType="" SizeID="11" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY1" FieldID="27" AliasID="DepRate" Descr="摊销比例" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_PKTY2" FieldID="0" AliasID="Date" Descr="Date" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@AU_POFIN" FieldID="0" AliasID="StdQty" Descr="标准孵化数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_POFIN" FieldID="1" AliasID="MinQty" Descr="最小孵化数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_POFIN" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@AU_POFOT" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="5" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="6" AliasID="RemAmount" Descr="剩余身价金额" TypeID="B" EditType="S" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="7" AliasID="ZSWeek" Descr="转舍结束周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="8" AliasID="CDWeek" Descr="产蛋开始周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="9" AliasID="DTWeek" Descr="淘汰周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@AU_POKTY" FieldID="10" AliasID="HEQty" Descr="种蛋标准数量" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_AOCND" FieldID="0" AliasID="ConBatch" Descr="是否考虑凭单" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="1" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_AOCND" FieldID="2" AliasID="AdjTran" Descr="包含调整交易" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="3" AliasID="CarryOver" Descr="包含结转凭证" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="4" AliasID="BeginAcct" Descr="起始科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_AOCND" FieldID="5" AliasID="EndAcct" Descr="截止科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_AOCND" FieldID="6" AliasID="BeginDim" Descr="起始维度" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_AOCND" FieldID="7" AliasID="EndDim" Descr="截止维度" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_AOCND" FieldID="8" AliasID="AcctType" Descr="科目类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="9" AliasID="Include" Descr="包含未过账的凭证" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="10" AliasID="Level" Descr="显示几级科目" TypeID="N" EditType="" SizeID="11" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="11" AliasID="PurDocNum" Descr="采购订单号" TypeID="N" EditType="" SizeID="11" EditSize="8" />
+	<UserDefineField TableID="@U_AOCND" FieldID="12" AliasID="Recal" Descr="存在即重算" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_AOCND" FieldID="13" AliasID="ATLevels" Descr="科目级次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_AOIDB" FieldID="0" AliasID="AcctCode" Descr="折旧内部交易科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_AOIDB" FieldID="1" AliasID="PrimDB" Descr="主帐套" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_AOIDB" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_AOPRM" FieldID="1" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_AOPRM" FieldID="2" AliasID="PrmValue" Descr="参数值" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="@U_AOUSP" FieldID="0" AliasID="UserSign" Descr="" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="0" AliasID="ItmsGrpCod" Descr="物料组代码" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="1" AliasID="ItmsGrpNam" Descr="物料组名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="2" AliasID="AcctCode" Descr="科目代码" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="3" AliasID="AcctName" Descr="科目名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="4" AliasID="PrcCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="5" AliasID="PrcName" Descr="成本中心名称" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_CCIT1" FieldID="6" AliasID="Remarks" Descr="注释" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_CITM1" FieldID="0" AliasID="CitCode" Descr="成本项" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_CITM1" FieldID="1" AliasID="Price" Descr="标准成本价" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_CITM1" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_COCIT" FieldID="0" AliasID="CostType" Descr="成本项类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_COCIT" FieldID="1" AliasID="SrcType" Descr="成本项来源" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_COCIT" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_COITM" FieldID="0" AliasID="ItemCode" Descr="物料代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_COITM" FieldID="1" AliasID="ItemName" Descr="物料名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_COITM" FieldID="2" AliasID="Price" Descr="标准成本" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_COITM" FieldID="3" AliasID="Remarks" Descr="注释" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_FCTR1" FieldID="0" AliasID="ProCode" Descr="工序" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FCTR1" FieldID="1" AliasID="DisRate" Descr="分摊权重" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_FJTY1" FieldID="0" AliasID="ObjType" Descr="事物类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FJTY1" FieldID="1" AliasID="TransCode" Descr="交易代码" TypeID="A" EditType=" " SizeID="4" EditSize="4" />
+	<UserDefineField TableID="@U_FJTY1" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="0" AliasID="CreateDate" Descr="创建日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="1" AliasID="PeriodCode" Descr="财务期间" TypeID="A" EditType=" " SizeID="7" EditSize="7" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="2" AliasID="PeriodID" Descr="会计期间" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="3" AliasID="AdjNum" Descr="调整编号" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="4" AliasID="TransID" Descr="日记账分录" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="5" AliasID="TransCode" Descr="交易代码" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="6" AliasID="Ref1" Descr="参考1" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="7" AliasID="Ref2" Descr="参考2" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="8" AliasID="Ref3" Descr="参考3" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="9" AliasID="Memo" Descr="参考4" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="10" AliasID="RowID" Descr="行号" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="11" AliasID="AcctDrct" Descr="科目方向" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="12" AliasID="AcctCode" Descr="科目代码" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="13" AliasID="AcctName" Descr="科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="14" AliasID="Total" Descr="金额" TypeID="B" EditType="S" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="15" AliasID="OcrCode1" Descr="维1分配规则" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="16" AliasID="OcrCode2" Descr="维2分配规则" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="17" AliasID="OcrCode3" Descr="维3分配规则" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="18" AliasID="OcrCode4" Descr="维4分配规则" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="19" AliasID="OcrCode5" Descr="维5分配规则" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="20" AliasID="LineRef1" Descr="行参考1" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="21" AliasID="LineRef2" Descr="行参考2" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="22" AliasID="LineRef3" Descr="行参考3" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOAJT" FieldID="23" AliasID="LineMemo" Descr="行备注" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="@U_FOCTR" FieldID="0" AliasID="FarmType" Descr="农场类型" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="@U_FOCTR" FieldID="1" AliasID="KSDays" Descr="空舍期天数" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_FOCTR" FieldID="2" AliasID="Notes" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_FOJTY" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="0" AliasID="AcctFrom" Descr="起始科目" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="1" AliasID="AcctTo" Descr="终止科目" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="2" AliasID="Discrption" Descr="描述" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="3" AliasID="TrslRate" Descr="转换汇率" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="4" AliasID="TrsCalc" Descr="计算依据" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="5" AliasID="TrsMeth" Descr="转换方法" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_FOTLR" FieldID="6" AliasID="Remarks" Descr="描述" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL10" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL2" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL3" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL3" FieldID="1" AliasID="Class2" Descr="物料分类2" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_IICL3" FieldID="2" AliasID="ItmsGrpCod" Descr="物料组代码" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_IICL3" FieldID="3" AliasID="ItmsGrpNam" Descr="物料组名称" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="@U_IICL4" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL5" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL6" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL7" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL8" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IICL9" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="0" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="1" AliasID="ForType" Descr="适用单据" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="2" AliasID="RevAble" Descr="确认副产品收入" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="3" AliasID="RevActCod" Descr="副产品收入科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="4" AliasID="RevActNam" Descr="副产品收入科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="5" AliasID="OppActCod" Descr="收入对方科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="6" AliasID="OppActNam" Descr="收入对方科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="7" AliasID="InPrcLst" Descr="入库价格清单" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="8" AliasID="InPrcNam" Descr="入库价格清单名称" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="9" AliasID="InPrcCtr" Descr="入库价格控制" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="10" AliasID="OutPrcLst" Descr="出库价格清单" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="11" AliasID="OutPrcNam" Descr="出库价格清单名称" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="12" AliasID="OutPrcCtr" Descr="出库价格清单控制" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_IOTRN" FieldID="13" AliasID="Notes" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="0" AliasID="CtrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="1" AliasID="ItmsGrpCod" Descr="物料组" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="2" AliasID="ItmsGrpNam" Descr="物料组名称" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="3" AliasID="AcctCode" Descr="科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="4" AliasID="AcctName" Descr="科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_ITRN1" FieldID="5" AliasID="Notes" Descr="注释" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="0" AliasID="CWeekAge" Descr="周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="1" AliasID="MFeedNum" Descr="种鸡公鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="2" AliasID="FFeedNum" Descr="种鸡母鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="3" AliasID="DFeedNum" Descr="肉鸡饲料料号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="4" AliasID="MStdQty" Descr="公鸡标准消耗数量(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="5" AliasID="FStdQty" Descr="母鸡标准消耗量(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="6" AliasID="MixFeedQty" Descr="混饲标准消耗量（g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="7" AliasID="MStdDR" Descr="标准公鸡死淘率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="8" AliasID="FStdDR" Descr="标准母鸡死淘率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="9" AliasID="MStdAW" Descr="标准平均公鸡体重(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="10" AliasID="FStdAW" Descr="标准平均母鸡体重(g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="11" AliasID="MixStdAW" Descr="标准混饲平均体重（g)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="12" AliasID="EggStdR" Descr="标准产蛋率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="13" AliasID="EggStdQ" Descr="标准产蛋量(枚)" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="14" AliasID="HegStdR" Descr="标准种蛋率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="15" AliasID="HegStdQ" Descr="标准种蛋数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="16" AliasID="FEStdR" Descr="标准料蛋比/枚" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="17" AliasID="FeiEggStdR" Descr="标准受精蛋比例(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="18" AliasID="CHStdRate" Descr="标准出雏率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="19" AliasID="SCStdRate" Descr="标准健雏率(%)" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="20" AliasID="SCStdQty" Descr="标准健雏数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="21" AliasID="FeedLRate" Descr="标准料肉比" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="23" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="24" AliasID="EggWStd" Descr="标准蛋重" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="25" AliasID="HaEggWStd" Descr="标准种蛋重" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="26" AliasID="EWeekAge" Descr="蛋龄" TypeID="N" EditType="" SizeID="11" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY1" FieldID="27" AliasID="DepRate" Descr="摊销比例" TypeID="B" EditType="R" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_PKTY2" FieldID="0" AliasID="Date" Descr="Date" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="0" AliasID="DateMode" Descr="日期格式[A]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="1" AliasID="CompCode" Descr="公司代码[B]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="2" AliasID="Class" Descr="班次[C]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="3" AliasID="HouseCode" Descr="栋[D]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="4" AliasID="Express" Descr="组合方式" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_POBRL" FieldID="5" AliasID="NumNo" Descr="顺序号[E]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="6" AliasID="GetValue" Descr="取值规则" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_POBRL" FieldID="7" AliasID="DateType" Descr="日期类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="8" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POBRL" FieldID="9" AliasID="Level" Descr="鸡苗等级[G]" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POFIN" FieldID="0" AliasID="StdQty" Descr="标准孵化数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_POFIN" FieldID="1" AliasID="MinQty" Descr="最小孵化数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_POFIN" FieldID="2" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_POFOT" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_POKTY" FieldID="5" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_POKTY" FieldID="6" AliasID="RemAmount" Descr="剩余身价金额" TypeID="B" EditType="S" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_POKTY" FieldID="7" AliasID="ZSWeek" Descr="转舍结束周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_POKTY" FieldID="8" AliasID="CDWeek" Descr="产蛋开始周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_POKTY" FieldID="9" AliasID="DTWeek" Descr="淘汰周" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_POKTY" FieldID="10" AliasID="HEQty" Descr="种蛋标准数量" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="@U_POMED" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_POPLT" FieldID="0" AliasID="RouType" Descr="路线类型" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_POPLT" FieldID="1" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_POPRO" FieldID="0" AliasID="DisType" Descr="分摊方法" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POPRO" FieldID="1" AliasID="PriceList" Descr="价格清单代码" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_POPRO" FieldID="2" AliasID="ListName" Descr="价格清单名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_POPRO" FieldID="3" AliasID="Notes" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_PPLT1" FieldID="0" AliasID="Proc" Descr="工序" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_PPLT1" FieldID="1" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_SBC21" FieldID="0" AliasID="ItmsGrpCod" Descr="物料组代码" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="@U_SBC21" FieldID="1" AliasID="ItmsGrpNam" Descr="物料组名称" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="@U_SBC21" FieldID="2" AliasID="AcctCodRev" Descr="收入科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_SBC21" FieldID="3" AliasID="AcctNamRev" Descr="收入科目名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_SBC21" FieldID="4" AliasID="AcctCodCst" Descr="成本科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_SBC21" FieldID="5" AliasID="AcctNamCst" Descr="成本科目名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_SBC21" FieldID="6" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_SBCL2" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SBCL2" FieldID="1" AliasID="CardType" Descr="业务伙伴类型" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_SBCL2" FieldID="2" AliasID="AcctCode" Descr="往来科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="@U_SBCL3" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SBCL3" FieldID="1" AliasID="CardType" Descr="业务伙伴类型" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_SBCL4" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SBCL4" FieldID="1" AliasID="CardType" Descr="业务伙伴类型" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_SBCL5" FieldID="0" AliasID="Remarks" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SBCL5" FieldID="1" AliasID="CardType" Descr="业务伙伴类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="@U_SORIN" FieldID="0" AliasID="Remark" Descr="备注" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="@U_SORPL" FieldID="0" AliasID="FatherCod" Descr="上级代码" TypeID="A" EditType=" " SizeID="16" EditSize="16" />
+	<UserDefineField TableID="@U_SORPL" FieldID="1" AliasID="GroupCod" Descr="报表组编码" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="@U_SORPL" FieldID="2" AliasID="GroupNam" Descr="报表组名称" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SORPL" FieldID="3" AliasID="Remark" Descr="备注" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="0" AliasID="ObjectList" Descr="对象列表" TypeID="A" EditType=" " SizeID="254" EditSize="254" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="1" AliasID="TransTpLst" Descr="事务列表" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="2" AliasID="Purpose" Descr="用途" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="3" AliasID="ContLogic" Descr="控制逻辑" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="4" AliasID="Procedure" Descr="执行的存储过程" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="5" AliasID="Active" Descr="活动" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="@U_SOTCT" FieldID="6" AliasID="Remark" Descr="注释" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="AACP" FieldID="0" AliasID="YTrsAcct" Descr="未分配利润科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="AACP" FieldID="1" AliasID="TLVarAcct" Descr="转换差异科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="AACT" FieldID="0" AliasID="DIm1Evalue" Descr="维一有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="AACT" FieldID="1" AliasID="DIm2Evalue" Descr="维二有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="AACT" FieldID="2" AliasID="DIm3Evalue" Descr="维三有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="AACT" FieldID="3" AliasID="DIm4Evalue" Descr="维四有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="AACT" FieldID="4" AliasID="DIm5Evalue" Descr="维五有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="AACT" FieldID="5" AliasID="PRCAtC" Descr="PRC科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="AACT" FieldID="6" AliasID="PRCAtN" Descr="PRC科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="AACT" FieldID="7" AliasID="PRCFAtC" Descr="PRC上级科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="AACT" FieldID="8" AliasID="PRCFAtN" Descr="PRC上级科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="AACT" FieldID="9" AliasID="PlantExpense" Descr="是否制造费用" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ABTN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ABTN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ABTN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ABTN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ABTN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ABTN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ABTN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ABTN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ABTN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ABTN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="ABTN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ABTN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ABTN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ABTN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="ABTN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ABTN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ABTN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ABTN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ABTN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ACRD" FieldID="0" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ACRD" FieldID="1" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ACRD" FieldID="2" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ACRD" FieldID="3" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ACRD" FieldID="4" AliasID="CreditType" Descr="信用控制类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ACRD" FieldID="5" AliasID="CardCode" Descr="对应的供应商编号" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ACRD" FieldID="6" AliasID="PrcCode" Descr="对应成本中心" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ACRD" FieldID="7" AliasID="WhsCode" Descr="对应的仓库" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ACRD" FieldID="8" AliasID="CardName" Descr="对应的供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ACRD" FieldID="9" AliasID="PutAppro" Descr="提交审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ACRD" FieldID="10" AliasID="BelGroup" Descr="所属集团" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ADO1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="ADO1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ADO1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ADO1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ADO1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ADO1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ADO1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ADO1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ADO1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ADO1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ADO1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ADO1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="ADOC" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ADOC" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ADOC" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ADOC" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ADOC" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ADOC" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ADOC" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ADOC" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ADOC" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ADOC" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ADOC" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AFPR" FieldID="0" AliasID="Status" Descr="US期间状态" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AFPR" FieldID="1" AliasID="YFromDate" Descr="PRC年度开始日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AFPR" FieldID="2" AliasID="YToDate" Descr="PRC年度结束日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITB" FieldID="2" AliasID="BatchManage" Descr="批次管理" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="AITB" FieldID="3" AliasID="PPriceCtr" Descr="采购价格控制策略" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="AITB" FieldID="4" AliasID="SPriceCtr" Descr="销售价格控制策略" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AITB" FieldID="5" AliasID="FloatRate" Descr="采购浮动比率" TypeID="B" EditType="P" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="AITM" FieldID="0" AliasID="Spec" Descr="规格型号" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="2" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="3" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="4" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="5" AliasID="ValidTime" Descr="保质期（天）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="AITM" FieldID="6" AliasID="StdRoute" Descr="标准工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="7" AliasID="RewRoute" Descr="回制工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="8" AliasID="ChickSexy" Descr="种鸡性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITM" FieldID="14" AliasID="QryGroup1" Descr="是否月末库存重估" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITM" FieldID="15" AliasID="UniqID" Descr="副产品唯一标识" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AITM" FieldID="16" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="17" AliasID="Class6" Descr="分类六" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="18" AliasID="Class7" Descr="分类七" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="19" AliasID="Class8" Descr="分类八" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="20" AliasID="Class9" Descr="分类九" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="21" AliasID="Class10" Descr="分类十" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="22" AliasID="MaTem" Descr="产品温度" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="AITM" FieldID="23" AliasID="IsStdPkg" Descr="是否标包" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITM" FieldID="24" AliasID="NeedWhtCt" Descr="是否过磅" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITM" FieldID="25" AliasID="NeedCheck" Descr="是否填写品检结果" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AITM" FieldID="26" AliasID="PkgUnitWht" Descr="每包装物重量KG" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="AITM" FieldID="27" AliasID="InPackInD" Descr="内包装(内径)" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="28" AliasID="ColorInPack" Descr="内包装袋颜色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AITM" FieldID="29" AliasID="SizeInPack" Descr="内包装尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AITM" FieldID="30" AliasID="OutPackInD" Descr="外包装(内径)" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AITM" FieldID="31" AliasID="SizeOutPack" Descr="外包材尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AJD1" FieldID="0" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="AJDT" FieldID="0" AliasID="DocType" Descr="凭证类型" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AJDT" FieldID="1" AliasID="DocNum" Descr="凭证编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="AJDT" FieldID="2" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="APRC" FieldID="0" AliasID="KSDays" Descr="空舍期天数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="APRC" FieldID="1" AliasID="FarmCode" Descr="农场" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="2" AliasID="PulFact" Descr="育成厂" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="APRC" FieldID="3" AliasID="LayerFact" Descr="产蛋厂" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="APRC" FieldID="4" AliasID="RemAmount" Descr="剩余身价" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="5" AliasID="STDate" Descr="入鸡苗日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="6" AliasID="ZYDate" Descr="转舍结束日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="7" AliasID="EBDate" Descr="产蛋开始日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="8" AliasID="EDDate" Descr="淘汰/出栏日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="9" AliasID="FuncCode" Descr="功能代码" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="APRC" FieldID="10" AliasID="FarmArea" Descr="农场面积" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="APRC" FieldID="11" AliasID="CostType" Descr="成本中心类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="APRC" FieldID="12" AliasID="ChickType" Descr="品种" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="APRC" FieldID="13" AliasID="Region" Descr="区域" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="APRC" FieldID="16" AliasID="Cdec" Descr="描述" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ASRN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ASRN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ASRN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ASRN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ASRN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ASRN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ASRN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ASRN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ASRN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ASRN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="ASRN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ASRN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ASRN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ASRN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="ASRN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ASRN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ASRN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ASRN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ASRN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="AUSR" FieldID="0" AliasID="UserType" Descr="用户类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="AUSR" FieldID="1" AliasID="LinkRole" Descr="关联角色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AWHS" FieldID="0" AliasID="FarmCode" Descr="所属农场代码" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AWHS" FieldID="1" AliasID="FarmName" Descr="所属农场名称" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AWOR" FieldID="0" AliasID="ChickSexy" Descr="性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AWOR" FieldID="1" AliasID="STWeekAge" Descr="起始周龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="AWOR" FieldID="2" AliasID="ChickType" Descr="品种" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AWOR" FieldID="3" AliasID="IncuCode" Descr="孵化器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AWOR" FieldID="4" AliasID="IncuMinQty" Descr="最小孵化量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="AWOR" FieldID="5" AliasID="GiveCode" Descr="出雏器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="AWOR" FieldID="6" AliasID="GiveSou" Descr="雏源" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="AWOR" FieldID="7" AliasID="CompQt" Descr="异常客诉数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="BTF1" FieldID="0" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="BTNT" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="BTNT" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="BTNT" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="BTNT" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="BTNT" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="BTNT" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="BTNT" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="BTNT" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="BTNT" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="BTNT" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="BTNT" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="BTNT" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="BTNT" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="BTNT" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="BTNT" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="BTNT" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="BTNT" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="BTNT" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="BTNT" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CIN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="CIN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CIN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="CIN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CIN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CIN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CIN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CIN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CIN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CIN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CIN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CIN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="CPI1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="CPI1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPI1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="CPI1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPI1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CPI1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CPI1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CPI1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CPI1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPI1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPI1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CPI1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="CPV1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="CPV1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPV1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="CPV1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPV1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CPV1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CPV1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CPV1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CPV1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPV1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CPV1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CPV1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="CSI1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="CSI1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSI1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="CSI1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSI1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CSI1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CSI1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CSI1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CSI1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSI1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSI1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CSI1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="CSV1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="CSV1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSV1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="CSV1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSV1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CSV1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="CSV1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CSV1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="CSV1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSV1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="CSV1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="CSV1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="DLN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="DLN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DLN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="DLN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DLN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DLN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DLN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DLN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DLN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DLN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DLN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="DLN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="DPI1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="DPI1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPI1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="DPI1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPI1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DPI1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DPI1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DPI1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DPI1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPI1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPI1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="DPI1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="DPO1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="DPO1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPO1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="DPO1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPO1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DPO1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DPO1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DPO1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DPO1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPO1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DPO1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="DPO1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="DRF1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="DRF1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DRF1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="DRF1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DRF1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DRF1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="DRF1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DRF1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="DRF1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DRF1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="DRF1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="DRF1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="IEI1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="IEI1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IEI1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="IEI1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IEI1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IEI1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IEI1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IEI1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IEI1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IEI1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IEI1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="IEI1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="IGE1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="IGE1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGE1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="IGE1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGE1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IGE1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IGE1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IGE1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IGE1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGE1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGE1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="IGE1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="IGN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="IGN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="IGN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IGN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="IGN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IGN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="IGN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="IGN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="IGN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="INV1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="INV1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="INV1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="INV1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="INV1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="INV1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="INV1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="INV1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="INV1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="INV1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="INV1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="INV1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="JDT1" FieldID="0" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="OACP" FieldID="0" AliasID="YTrsAcct" Descr="未分配利润科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OACP" FieldID="1" AliasID="TLVarAcct" Descr="转换差异科目" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OACT" FieldID="0" AliasID="DIm1Evalue" Descr="维一有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OACT" FieldID="1" AliasID="DIm2Evalue" Descr="维二有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OACT" FieldID="2" AliasID="DIm3Evalue" Descr="维三有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OACT" FieldID="3" AliasID="DIm4Evalue" Descr="维四有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OACT" FieldID="4" AliasID="DIm5Evalue" Descr="维五有效值" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OACT" FieldID="5" AliasID="PRCAtC" Descr="PRC科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OACT" FieldID="6" AliasID="PRCAtN" Descr="PRC科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="OACT" FieldID="7" AliasID="PRCFAtC" Descr="PRC上级科目代码" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OACT" FieldID="8" AliasID="PRCFAtN" Descr="PRC上级科目名称" TypeID="A" EditType=" " SizeID="50" EditSize="50" />
+	<UserDefineField TableID="OACT" FieldID="9" AliasID="PlantExpense" Descr="是否制造费用" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OBTF" FieldID="0" AliasID="DocType" Descr="凭证类型" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTF" FieldID="1" AliasID="DocNum" Descr="凭证编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OBTF" FieldID="2" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="OBTN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OBTN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OBTN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OBTN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OBTN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OBTN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OBTN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OBTN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OBTN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OBTN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="OBTN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OBTN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OBTN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OBTN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OBTN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCIN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCIN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCIN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCIN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCIN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OCIN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCIN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCIN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCIN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCIN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCIN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCPI" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCPI" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCPI" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCPI" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPI" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OCPI" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCPI" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPI" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCPI" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPI" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCPI" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCPV" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCPV" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCPV" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCPV" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPV" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OCPV" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCPV" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPV" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCPV" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCPV" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCPV" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCRD" FieldID="0" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCRD" FieldID="1" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCRD" FieldID="2" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCRD" FieldID="3" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCRD" FieldID="4" AliasID="CreditType" Descr="信用控制类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCRD" FieldID="5" AliasID="CardCode" Descr="对应的供应商编号" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCRD" FieldID="6" AliasID="PrcCode" Descr="对应成本中心" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCRD" FieldID="7" AliasID="WhsCode" Descr="对应的仓库" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCRD" FieldID="8" AliasID="CardName" Descr="对应的供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OCRD" FieldID="9" AliasID="PutAppro" Descr="提交审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCRD" FieldID="10" AliasID="BelGroup" Descr="所属集团" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCSI" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCSI" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCSI" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCSI" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSI" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OCSI" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCSI" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSI" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCSI" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSI" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCSI" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCSV" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCSV" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OCSV" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCSV" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSV" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OCSV" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OCSV" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSV" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OCSV" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OCSV" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OCSV" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODBN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODBN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODBN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODBN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODBN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="ODBN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ODBN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODBN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODBN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="ODBN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ODBN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ODBN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODBN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODBN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODLN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODLN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODLN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODLN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODLN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODLN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODLN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODLN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODLN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODLN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ODLN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODPI" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODPI" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODPI" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODPI" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPI" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODPI" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODPI" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPI" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODPI" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPI" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ODPI" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODPO" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODPO" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODPO" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODPO" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPO" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODPO" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODPO" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPO" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODPO" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODPO" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ODPO" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODRF" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODRF" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODRF" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODRF" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODRF" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODRF" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODRF" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODRF" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODRF" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ODRF" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ODRF" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODSN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ODSN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ODSN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODSN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODSN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="ODSN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="ODSN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODSN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="ODSN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="ODSN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ODSN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="ODSN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ODSN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ODSN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OEI1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="OEI1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OEI1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OEI1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OEI1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OEI1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OEI1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OEI1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OEI1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OEI1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OEI1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OEI1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="OFPR" FieldID="0" AliasID="Status" Descr="US期间状态" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OFPR" FieldID="1" AliasID="YFromDate" Descr="PRC年度开始日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OFPR" FieldID="2" AliasID="YToDate" Descr="PRC年度结束日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIBT" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIBT" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIBT" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIBT" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OIBT" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OIBT" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIBT" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIBT" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIBT" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OIBT" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OIBT" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OIBT" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OIBT" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OIBT" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="OIBT" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OIBT" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OIBT" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIBT" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIBT" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIEI" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIEI" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIEI" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIEI" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIEI" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OIEI" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIEI" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIEI" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIEI" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIEI" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OIEI" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIGE" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIGE" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIGE" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIGE" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGE" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OIGE" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIGE" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGE" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIGE" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGE" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OIGE" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIGN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIGN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OIGN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIGN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OIGN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OIGN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OIGN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OIGN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OIGN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OINV" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OINV" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OINV" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OINV" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OINV" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OINV" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OINV" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OINV" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OINV" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OINV" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OINV" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OITB" FieldID="2" AliasID="BatchManage" Descr="批次管理" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OITB" FieldID="3" AliasID="PPriceCtr" Descr="采购价格控制策略" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OITB" FieldID="4" AliasID="SPriceCtr" Descr="销售价格控制策略" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OITB" FieldID="5" AliasID="FloatRate" Descr="采购浮动比率" TypeID="B" EditType="P" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="OITM" FieldID="0" AliasID="Spec" Descr="规格型号" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="2" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="3" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="4" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="5" AliasID="ValidTime" Descr="保质期（天）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OITM" FieldID="6" AliasID="StdRoute" Descr="标准工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="7" AliasID="RewRoute" Descr="回制工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="8" AliasID="ChickSexy" Descr="种鸡性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OITM" FieldID="14" AliasID="QryGroup1" Descr="是否月末库存重估" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OITM" FieldID="15" AliasID="UniqID" Descr="副产品唯一标识" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OITM" FieldID="16" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="17" AliasID="Class6" Descr="分类六" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="18" AliasID="Class7" Descr="分类七" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="19" AliasID="Class8" Descr="分类八" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="20" AliasID="Class9" Descr="分类九" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="21" AliasID="Class10" Descr="分类十" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="22" AliasID="MaTem" Descr="产品温度" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OITM" FieldID="23" AliasID="IsStdPkg" Descr="是否标包" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OITM" FieldID="24" AliasID="NeedWhtCt" Descr="是否过磅" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OITM" FieldID="25" AliasID="NeedCheck" Descr="是否填写品检结果" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OITM" FieldID="26" AliasID="PkgUnitWht" Descr="每包装物重量KG" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="OITM" FieldID="27" AliasID="InPackInD" Descr="内包装(内径)" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="28" AliasID="ColorInPack" Descr="内包装袋颜色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OITM" FieldID="29" AliasID="SizeInPack" Descr="内包装尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OITM" FieldID="30" AliasID="OutPackInD" Descr="外包装(内径)" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OITM" FieldID="31" AliasID="SizeOutPack" Descr="外包材尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OJDT" FieldID="0" AliasID="DocType" Descr="凭证类型" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OJDT" FieldID="1" AliasID="DocNum" Descr="凭证编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OJDT" FieldID="2" AliasID="EMemo" Descr="Memo" TypeID="A" EditType=" " SizeID="200" EditSize="200" />
+	<UserDefineField TableID="OOEI" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OOEI" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OOEI" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OOEI" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OOEI" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OOEI" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OOEI" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OOEI" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OOEI" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OOEI" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OOEI" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPCH" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPCH" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPCH" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPCH" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPCH" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OPCH" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPCH" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPCH" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPCH" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPCH" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OPCH" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPDN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPDN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPDN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPDN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPDN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OPDN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPDN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPDN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPDN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPDN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OPDN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPOR" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPOR" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPOR" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPOR" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPOR" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OPOR" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPOR" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPOR" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPOR" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPOR" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OPOR" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPQT" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPQT" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPQT" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPQT" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPQT" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OPQT" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPQT" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPQT" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPQT" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPQT" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OPQT" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRC" FieldID="0" AliasID="KSDays" Descr="空舍期天数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OPRC" FieldID="1" AliasID="FarmCode" Descr="农场" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="2" AliasID="PulFact" Descr="育成厂" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRC" FieldID="3" AliasID="LayerFact" Descr="产蛋厂" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRC" FieldID="4" AliasID="RemAmount" Descr="剩余身价" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="5" AliasID="STDate" Descr="入鸡苗日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="6" AliasID="ZYDate" Descr="转舍结束日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="7" AliasID="EBDate" Descr="产蛋开始日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="8" AliasID="EDDate" Descr="淘汰/出栏日期" TypeID="D" EditType="" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="9" AliasID="FuncCode" Descr="功能代码" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRC" FieldID="10" AliasID="FarmArea" Descr="农场面积" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRC" FieldID="11" AliasID="CostType" Descr="成本中心类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPRC" FieldID="12" AliasID="ChickType" Descr="品种" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPRC" FieldID="13" AliasID="Region" Descr="区域" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRC" FieldID="16" AliasID="Cdec" Descr="描述" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OPRQ" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRQ" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OPRQ" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPRQ" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPRQ" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OPRQ" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OPRQ" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPRQ" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OPRQ" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OPRQ" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OPRQ" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OQUT" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OQUT" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OQUT" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OQUT" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OQUT" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OQUT" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OQUT" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OQUT" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OQUT" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OQUT" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OQUT" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORDN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORDN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORDN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORDN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ORDN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORDN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORDN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ORDN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORDR" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORDR" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORDR" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORDR" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDR" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ORDR" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORDR" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDR" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORDR" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORDR" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ORDR" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORIN" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORIN" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORIN" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORIN" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORIN" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ORIN" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORIN" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORIN" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORIN" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORIN" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ORIN" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORPC" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORPC" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORPC" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORPC" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPC" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ORPC" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORPC" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPC" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORPC" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPC" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ORPC" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORPD" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORPD" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="ORPD" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORPD" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPD" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="ORPD" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="ORPD" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPD" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="ORPD" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="ORPD" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="ORPD" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRI" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OSRI" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRI" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OSRI" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRI" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OSRI" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OSRI" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRI" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRI" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="OSRI" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OSRI" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OSRI" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OSRI" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OSRI" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OSRN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OSRN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OSRN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OSRN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="OSRN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="OSRN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OSRN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="OSRN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OSRN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="OSRN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OSRN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OSRN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OTRC" FieldID="0" AliasID="DimForced" Descr="执行维度控制" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OTRC" FieldID="1" AliasID="Type" Descr="类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OUSR" FieldID="0" AliasID="UserType" Descr="用户类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OUSR" FieldID="1" AliasID="LinkRole" Descr="关联角色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWHS" FieldID="0" AliasID="FarmCode" Descr="所属农场代码" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWHS" FieldID="1" AliasID="FarmName" Descr="所属农场名称" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWOR" FieldID="0" AliasID="ChickSexy" Descr="性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWOR" FieldID="1" AliasID="STWeekAge" Descr="起始周龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="OWOR" FieldID="2" AliasID="ChickType" Descr="品种" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWOR" FieldID="3" AliasID="IncuCode" Descr="孵化器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWOR" FieldID="4" AliasID="IncuMinQty" Descr="最小孵化量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWOR" FieldID="5" AliasID="GiveCode" Descr="出雏器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWOR" FieldID="6" AliasID="GiveSou" Descr="雏源" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OWOR" FieldID="7" AliasID="CompQt" Descr="异常客诉数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWTQ" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWTQ" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWTQ" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWTQ" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTQ" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OWTQ" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OWTQ" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTQ" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWTQ" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTQ" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OWTQ" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OWTR" FieldID="6" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWTR" FieldID="7" AliasID="FeedType" Descr="投料类型" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="OWTR" FieldID="11" AliasID="TrsName" Descr="事务类型" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWTR" FieldID="12" AliasID="SrcType" Descr="源单类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTR" FieldID="13" AliasID="SrcNum" Descr="源单编号" TypeID="N" EditType=" " SizeID="11" EditSize="10" />
+	<UserDefineField TableID="OWTR" FieldID="14" AliasID="Creator" Descr="创建人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="OWTR" FieldID="15" AliasID="FcCode" Descr="需求月份" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTR" FieldID="16" AliasID="CstCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="OWTR" FieldID="17" AliasID="CCType" Descr="死淘类型" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="OWTR" FieldID="19" AliasID="Approve" Descr="需要审批" TypeID="A" EditType=" " SizeID="1" EditSize="1" />
+	<UserDefineField TableID="OWTR" FieldID="20" AliasID="RefKey" Descr="Reference Key" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PCH1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="PCH1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PCH1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="PCH1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PCH1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PCH1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PCH1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PCH1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PCH1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PCH1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PCH1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="PCH1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="PDN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="PDN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PDN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="PDN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PDN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PDN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PDN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PDN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PDN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PDN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PDN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="PDN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="POR1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="POR1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="POR1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="POR1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="POR1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="POR1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="POR1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="POR1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="POR1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="POR1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="POR1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="POR1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="PQT1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="PQT1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PQT1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="PQT1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PQT1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PQT1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PQT1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PQT1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PQT1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PQT1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PQT1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="PQT1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="PRQ1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="PRQ1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PRQ1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="PRQ1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PRQ1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PRQ1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="PRQ1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PRQ1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="PRQ1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PRQ1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="PRQ1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="PRQ1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="QUT1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="QUT1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="QUT1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="QUT1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="QUT1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="QUT1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="QUT1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="QUT1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="QUT1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="QUT1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="QUT1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="QUT1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="RDN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="RDN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="RDN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RDN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RDN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RDN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RDN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="RDN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="RDR1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="RDR1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDR1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="RDR1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDR1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RDR1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RDR1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RDR1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RDR1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDR1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RDR1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="RDR1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="RIN1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="RIN1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RIN1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="RIN1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RIN1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RIN1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RIN1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RIN1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RIN1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RIN1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RIN1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="RIN1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="RPC1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="RPC1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPC1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="RPC1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPC1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RPC1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RPC1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RPC1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RPC1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPC1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPC1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="RPC1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="RPD1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="RPD1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPD1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="RPD1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPD1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RPD1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="RPD1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RPD1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="RPD1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPD1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="RPD1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="RPD1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="SITM" FieldID="0" AliasID="Spec" Descr="规格型号" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="2" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="3" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="4" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="5" AliasID="ValidTime" Descr="保质期（天）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="SITM" FieldID="6" AliasID="StdRoute" Descr="标准工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="7" AliasID="RewRoute" Descr="回制工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="8" AliasID="ChickSexy" Descr="种鸡性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SITM" FieldID="14" AliasID="QryGroup1" Descr="是否月末库存重估" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SITM" FieldID="15" AliasID="UniqID" Descr="副产品唯一标识" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SITM" FieldID="16" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="17" AliasID="Class6" Descr="分类六" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="18" AliasID="Class7" Descr="分类七" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="19" AliasID="Class8" Descr="分类八" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="20" AliasID="Class9" Descr="分类九" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="21" AliasID="Class10" Descr="分类十" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="22" AliasID="MaTem" Descr="产品温度" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="SITM" FieldID="23" AliasID="IsStdPkg" Descr="是否标包" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SITM" FieldID="24" AliasID="NeedWhtCt" Descr="是否过磅" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SITM" FieldID="25" AliasID="NeedCheck" Descr="是否填写品检结果" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SITM" FieldID="26" AliasID="PkgUnitWht" Descr="每包装物重量KG" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="SITM" FieldID="27" AliasID="InPackInD" Descr="内包装(内径)" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="28" AliasID="ColorInPack" Descr="内包装袋颜色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SITM" FieldID="29" AliasID="SizeInPack" Descr="内包装尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SITM" FieldID="30" AliasID="OutPackInD" Descr="外包装(内径)" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SITM" FieldID="31" AliasID="SizeOutPack" Descr="外包材尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="SRNT" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="SRNT" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="SRNT" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SRNT" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="SRNT" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="SRNT" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="SRNT" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="SRNT" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="SRNT" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="SRNT" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="SRNT" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="SRNT" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="SRNT" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="SRNT" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="UBTN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UBTN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UBTN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UBTN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="UBTN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="UBTN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UBTN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UBTN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UBTN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="UBTN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="UBTN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="UBTN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="UBTN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="UBTN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="UBTN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="UBTN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="UBTN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UBTN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UBTN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="UITM" FieldID="0" AliasID="Spec" Descr="规格型号" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="2" AliasID="Class3" Descr="分类三" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="3" AliasID="Class4" Descr="分类四" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="4" AliasID="Class5" Descr="分类五" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="5" AliasID="ValidTime" Descr="保质期（天）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="UITM" FieldID="6" AliasID="StdRoute" Descr="标准工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="7" AliasID="RewRoute" Descr="回制工艺路线" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="8" AliasID="ChickSexy" Descr="种鸡性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UITM" FieldID="14" AliasID="QryGroup1" Descr="是否月末库存重估" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UITM" FieldID="15" AliasID="UniqID" Descr="副产品唯一标识" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UITM" FieldID="16" AliasID="Class2" Descr="分类二" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="17" AliasID="Class6" Descr="分类六" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="18" AliasID="Class7" Descr="分类七" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="19" AliasID="Class8" Descr="分类八" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="20" AliasID="Class9" Descr="分类九" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="21" AliasID="Class10" Descr="分类十" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="22" AliasID="MaTem" Descr="产品温度" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="UITM" FieldID="23" AliasID="IsStdPkg" Descr="是否标包" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UITM" FieldID="24" AliasID="NeedWhtCt" Descr="是否过磅" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UITM" FieldID="25" AliasID="NeedCheck" Descr="是否填写品检结果" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UITM" FieldID="26" AliasID="PkgUnitWht" Descr="每包装物重量KG" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="UITM" FieldID="27" AliasID="InPackInD" Descr="内包装(内径)" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="28" AliasID="ColorInPack" Descr="内包装袋颜色" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UITM" FieldID="29" AliasID="SizeInPack" Descr="内包装尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UITM" FieldID="30" AliasID="OutPackInD" Descr="外包装(内径)" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UITM" FieldID="31" AliasID="SizeOutPack" Descr="外包材尺寸" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="0" AliasID="OcrCode" Descr="成本中心" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="1" AliasID="OcrCode2" Descr="栋" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="2" AliasID="OcrCode3" Descr="饲养批次" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="3" AliasID="ChickAge" Descr="鸡龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="USRN" FieldID="4" AliasID="HegMnfDate" Descr="生产周龄" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="USRN" FieldID="5" AliasID="ChickSexy" Descr="公/母" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="6" AliasID="ChickLevel" Descr="鸡苗等级" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="USRN" FieldID="7" AliasID="WeightAvg" Descr="平均体重" TypeID="B" EditType="P" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="USRN" FieldID="8" AliasID="ValidTime" Descr="保质期(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="USRN" FieldID="9" AliasID="CardCode" Descr="供应商编号" TypeID="A" EditType=" " SizeID="15" EditSize="15" />
+	<UserDefineField TableID="USRN" FieldID="10" AliasID="CardName" Descr="供应商名称" TypeID="A" EditType=" " SizeID="100" EditSize="100" />
+	<UserDefineField TableID="USRN" FieldID="11" AliasID="EggAgeD" Descr="蛋龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="USRN" FieldID="12" AliasID="ChickAgeD" Descr="鸡龄(天)" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="USRN" FieldID="13" AliasID="QADocNum" Descr="QA质检单号" TypeID="A" EditType=" " SizeID="60" EditSize="60" />
+	<UserDefineField TableID="USRN" FieldID="14" AliasID="QAResult" Descr="QA质检结果" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="USRN" FieldID="15" AliasID="MLVCode" Descr="药残级别" TypeID="A" EditType=" " SizeID="240" EditSize="240" />
+	<UserDefineField TableID="USRN" FieldID="16" AliasID="BatStatus" Descr="批次状态" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="USRN" FieldID="17" AliasID="GermResult" Descr="微生物检验是否合格" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="USRN" FieldID="18" AliasID="ClassNo" Descr="班次" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="UWOR" FieldID="0" AliasID="ChickSexy" Descr="性别" TypeID="A" EditType=" " SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UWOR" FieldID="1" AliasID="STWeekAge" Descr="起始周龄" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="UWOR" FieldID="2" AliasID="ChickType" Descr="品种" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UWOR" FieldID="3" AliasID="IncuCode" Descr="孵化器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UWOR" FieldID="4" AliasID="IncuMinQty" Descr="最小孵化量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="UWOR" FieldID="5" AliasID="GiveCode" Descr="出雏器" TypeID="A" EditType=" " SizeID="30" EditSize="30" />
+	<UserDefineField TableID="UWOR" FieldID="6" AliasID="GiveSou" Descr="雏源" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="UWOR" FieldID="7" AliasID="CompQt" Descr="异常客诉数量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="WTQ1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="WTQ1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTQ1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="WTQ1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTQ1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="WTQ1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="WTQ1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="WTQ1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="WTQ1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTQ1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTQ1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="WTQ1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	<UserDefineField TableID="WTR1" FieldID="2" AliasID="PlanBatch" Descr="建议批次" TypeID="A" EditType=" " SizeID="32" EditSize="32" />
+	<UserDefineField TableID="WTR1" FieldID="6" AliasID="PutInMtd" Descr="投药方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTR1" FieldID="8" AliasID="UseMinute" Descr="接种/用药时间（分）" TypeID="N" EditType="" SizeID="11" EditSize="10" />
+	<UserDefineField TableID="WTR1" FieldID="9" AliasID="Principal" Descr="接种/用药负责人" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTR1" FieldID="10" AliasID="SHQty" Descr="水分重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="WTR1" FieldID="11" AliasID="STQty" Descr="运输死淘重量" TypeID="B" EditType="Q" SizeID="8" EditSize="8" />
+	<UserDefineField TableID="WTR1" FieldID="12" AliasID="STNum" Descr="运输死淘只数" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="WTR1" FieldID="13" AliasID="TotalNum" Descr="数量（只数）" TypeID="N" EditType="" SizeID="11" EditSize="11" />
+	<UserDefineField TableID="WTR1" FieldID="14" AliasID="FeedProgram" Descr="饲喂方式" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTR1" FieldID="15" AliasID="DoseRate" Descr="剂量/浓度" TypeID="A" EditType=" " SizeID="20" EditSize="20" />
+	<UserDefineField TableID="WTR1" FieldID="21" AliasID="Sex" Descr="性别" TypeID="A" EditType=" " SizeID="10" EditSize="10" />
+	<UserDefineField TableID="WTR1" FieldID="22" AliasID="PlanQty" Descr="计划数量" TypeID="B" EditType="Q" SizeID="16" EditSize="16" />
+	</dataSet_xmlFile>
