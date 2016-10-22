@@ -6,8 +6,7 @@ import org.dom4j.io.SAXReader;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by majun on 10/22/16.
@@ -59,10 +58,27 @@ public class UserValidValue {
         return values;
     }
 
+    public Map<String,List<UserValidValue>> getValidValuesMap(){
+        Map<String,List<UserValidValue>> map = new LinkedHashMap<String, List<UserValidValue>>();
+        List<UserValidValue> values = this.getValidValues();
+        for(UserValidValue validValue : values){
+            String key = validValue.getTableId()+"-"+validValue.getFieldID();
+            List<UserValidValue> list = map.get(key);
+            if(list == null){
+                list = new ArrayList<UserValidValue>();
+            }
+            list.add(validValue);
+            map.put(key,list);
+        }
+
+        return map;
+    }
+
     public static void main(String[] args) {
         UserValidValue value = new UserValidValue();
         List<UserValidValue> values = value.getValidValues();
         System.out.println(values);
+        System.out.println(value.getValidValuesMap());
     }
 
     public String getDescr() {
