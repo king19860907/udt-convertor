@@ -7,6 +7,7 @@ import org.dom4j.io.SAXReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by majun on 10/22/16.
@@ -36,15 +37,16 @@ public class UserValidValue {
             Document doc = reader.read(in);
             Element root = doc.getRootElement();
             List<Element> childNodes = root.elements();
-            for(Element ele : childNodes){
+
+            values = childNodes.stream().map(element -> {
                 UserValidValue value = new UserValidValue();
-                value.setFieldID(Integer.parseInt(ele.attribute("FieldID").getData().toString()));
-                value.setIndexID(Integer.parseInt(ele.attribute("IndexID").getData().toString()));
-                value.setDescr(ele.attribute("Descr").getData().toString());
-                value.setTableId(ele.attribute("TableID").getData().toString());
-                value.setFldValue(ele.attributeValue("FldValue"));
-                values.add(value);
-            }
+                value.setFieldID(Integer.parseInt(element.attribute("FieldID").getData().toString()));
+                value.setIndexID(Integer.parseInt(element.attribute("IndexID").getData().toString()));
+                value.setDescr(element.attribute("Descr").getData().toString());
+                value.setTableId(element.attribute("TableID").getData().toString());
+                value.setFldValue(element.attributeValue("FldValue"));
+                return value;
+            }).collect(Collectors.toList());
 
         }catch (Exception e){
             e.printStackTrace();
@@ -59,13 +61,14 @@ public class UserValidValue {
     }
 
     public Map<String,List<UserValidValue>> getValidValuesMap(){
-        Map<String,List<UserValidValue>> map = new LinkedHashMap<String, List<UserValidValue>>();
+        Map<String,List<UserValidValue>> map = new LinkedHashMap<>();
         List<UserValidValue> values = this.getValidValues();
+
         for(UserValidValue validValue : values){
             String key = validValue.getTableId()+"-"+validValue.getFieldID();
             List<UserValidValue> list = map.get(key);
             if(list == null){
-                list = new ArrayList<UserValidValue>();
+                list = new ArrayList<>();
             }
             list.add(validValue);
             map.put(key,list);
