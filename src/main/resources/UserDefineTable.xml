@@ -1,48 +1,67 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataSet_xmlFile>
-	<UserDefineTable TableName="U_AOCND" Descr="查询条件表" TblNum="32" ObjectType="1" UsedInObj="UAOCND" />
-	<UserDefineTable TableName="U_AOIDB" Descr="合并账套维护表" TblNum="57" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_AOPRM" Descr="系统参数表" TblNum="35" ObjectType="1" UsedInObj="UAOPRM" />
-	<UserDefineTable TableName="U_AOUSP" Descr="用户进程" TblNum="68" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_CCIT1" Descr="成本分析项明细表" TblNum="37" ObjectType="2" UsedInObj="UCOCIT" />
-	<UserDefineTable TableName="U_CITM1" Descr="成本标准成本明细表" TblNum="39" ObjectType="4" UsedInObj="UCOITM" />
-	<UserDefineTable TableName="U_COCIT" Descr="成本分析项主表" TblNum="36" ObjectType="1" UsedInObj="UCOCIT" />
-	<UserDefineTable TableName="U_COITM" Descr="成本标准成本主表" TblNum="38" ObjectType="3" UsedInObj="UCOITM" />
-	<UserDefineTable TableName="U_FCTR1" Descr="成本中心与工序对应明细表" TblNum="2" ObjectType="2" UsedInObj="UFOCTR" />
-	<UserDefineTable TableName="U_FJTY1" Descr="财务凭证类型明细表" TblNum="49" ObjectType="2" UsedInObj="UFOJTY" />
-	<UserDefineTable TableName="U_FOAJT" Descr="凭证草稿表" TblNum="51" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_FOCTR" Descr="成本中心与工序对应表" TblNum="1" ObjectType="1" UsedInObj="UFOCTR" />
-	<UserDefineTable TableName="U_FOJTY" Descr="财务凭证类型主表" TblNum="48" ObjectType="1" UsedInObj="UFOJTY" />
-	<UserDefineTable TableName="U_FOTLR" Descr="转换差异规则表" TblNum="43" ObjectType="1" UsedInObj="UFOTLR" />
-	<UserDefineTable TableName="U_IICL10" Descr="物料分类十" TblNum="62" ObjectType="1" UsedInObj="UIICL10" />
-	<UserDefineTable TableName="U_IICL2" Descr="物料分类二" TblNum="5" ObjectType="1" UsedInObj="UIICL2" />
-	<UserDefineTable TableName="U_IICL3" Descr="物料分类三" TblNum="6" ObjectType="1" UsedInObj="UIICL3" />
-	<UserDefineTable TableName="U_IICL4" Descr="物料分类四" TblNum="7" ObjectType="1" UsedInObj="UIICL4" />
-	<UserDefineTable TableName="U_IICL5" Descr="物料分类五" TblNum="8" ObjectType="1" UsedInObj="UIICL5" />
-	<UserDefineTable TableName="U_IICL6" Descr="物料分类六" TblNum="58" ObjectType="1" UsedInObj="UIICL6" />
-	<UserDefineTable TableName="U_IICL7" Descr="物料分类七" TblNum="59" ObjectType="1" UsedInObj="UIICL7" />
-	<UserDefineTable TableName="U_IICL8" Descr="物料分类八" TblNum="60" ObjectType="1" UsedInObj="UIICL8" />
-	<UserDefineTable TableName="U_IICL9" Descr="物料分类九" TblNum="61" ObjectType="1" UsedInObj="UIICL9" />
-	<UserDefineTable TableName="U_IOTRN" Descr="库存交易事务主表" TblNum="3" ObjectType="1" UsedInObj="UIOTRN" />
-	<UserDefineTable TableName="U_ITRN1" Descr="库存交易事务明细表" TblNum="4" ObjectType="2" UsedInObj="UIOTRN" />
-	<UserDefineTable TableName="U_PKTY1" Descr="品种标准明细表" TblNum="18" ObjectType="2" UsedInObj="UPOKTY" />
-	<UserDefineTable TableName="U_PKTY2" Descr="品种标准明细表2" TblNum="69" ObjectType="2" UsedInObj="UPOKTY" />
-	<UserDefineTable TableName="U_POBRL" Descr="批次规则维护" TblNum="47" ObjectType="1" UsedInObj="UPOBRL" />
-	<UserDefineTable TableName="U_POBST" Descr="批次状态表" TblNum="66" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_POFIN" Descr="孵化器管理" TblNum="15" ObjectType="1" UsedInObj="UPOFIN" />
-	<UserDefineTable TableName="U_POFOT" Descr="出雏器管理" TblNum="16" ObjectType="1" UsedInObj="UPOFOT" />
-	<UserDefineTable TableName="U_POKTY" Descr="品种主表" TblNum="17" ObjectType="1" UsedInObj="UPOKTY" />
-	<UserDefineTable TableName="U_POMED" Descr="加药标示表" TblNum="25" ObjectType="1" UsedInObj="UPOMED" />
-	<UserDefineTable TableName="U_POMLV" Descr="药残级别表" TblNum="67" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_POPLT" Descr="工艺路线表" TblNum="9" ObjectType="1" UsedInObj="UPOPLT" />
-	<UserDefineTable TableName="U_POPRO" Descr="工序表" TblNum="0" ObjectType="1" UsedInObj="UPOPRO" />
-	<UserDefineTable TableName="U_PPLT1" Descr="工艺路线表明细表" TblNum="42" ObjectType="2" UsedInObj="UPOPLT" />
-	<UserDefineTable TableName="U_SBC21" Descr="业务伙伴分类二子表" TblNum="50" ObjectType="2" UsedInObj="USBCL2" />
-	<UserDefineTable TableName="U_SBCL2" Descr="业务伙伴分类二" TblNum="11" ObjectType="1" UsedInObj="USBCL2" />
-	<UserDefineTable TableName="U_SBCL3" Descr="业伙伙伴分类3" TblNum="12" ObjectType="1" UsedInObj="USBCL3" />
-	<UserDefineTable TableName="U_SBCL4" Descr="业伙伙伴分类4" TblNum="13" ObjectType="1" UsedInObj="USBCL4" />
-	<UserDefineTable TableName="U_SBCL5" Descr="业伙伙伴分类5" TblNum="14" ObjectType="1" UsedInObj="USBCL5" />
-	<UserDefineTable TableName="U_SORIN" Descr="用户角色" TblNum="46" ObjectType="0" UsedInObj="" />
-	<UserDefineTable TableName="U_SORPL" Descr="报表清单" TblNum="44" ObjectType="1" UsedInObj="USORPL" />
-	<UserDefineTable TableName="U_SOTCT" Descr="后台控制管理表" TblNum="45" ObjectType="1" UsedInObj="USOTCT" />
-	</dataSet_xmlFile>
+  <UserDefineTable TableName="U_AOCND" Descr="Query Table" TblNum="32" ObjectType="1" UsedInObj="UAOCND" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_AOIDB" Descr="Cons. Acct. Maintenance Table" TblNum="57" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_AOPRM" Descr="System Parameter Table" TblNum="35" ObjectType="1" UsedInObj="UAOPRM" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_AOUSP" Descr="User Process" TblNum="68" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_CCIT1" Descr="Cost Anls. Item Breakdown List" TblNum="37" ObjectType="2" UsedInObj="UCOCIT" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_CITM1" Descr="Cost Std. Cost Breakdown List" TblNum="39" ObjectType="4" UsedInObj="UCOITM" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_COCIT" Descr="Cost Anls. Item Master Table" TblNum="36" ObjectType="1" UsedInObj="UCOCIT" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_COITM" Descr="Cost Std. Cost Master Table" TblNum="38" ObjectType="3" UsedInObj="UCOITM" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_EECCTR" Descr="EE_CostCenter_Mapping" TblNum="63" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_EEEMP" Descr="EE_Employer_Mapping" TblNum="64" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_EEGLACCT" Descr="EE_GLAccount_Mapping" TblNum="65" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FCTR1" Descr="Cost Ctr.&amp;Proc. Crsp. Detail" TblNum="2" ObjectType="2" UsedInObj="UFOCTR" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FFAD1" Descr="Fixed Assets Split Schedule" TblNum="41" ObjectType="4" UsedInObj="UFOFAD" LogTable="AU_FFAD1" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FFAT1" Descr="Fixed Assets Card Sub Table" TblNum="24" ObjectType="2" UsedInObj="UFOFAT" LogTable="AU_FFAT1" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FJTY1" Descr="Fin. Document Type Detail List" TblNum="49" ObjectType="2" UsedInObj="UFOJTY" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOAJT" Descr="Voucher Draft Table" TblNum="51" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOCTR" Descr="Cost Center&amp;Proc. Crsp. Table" TblNum="1" ObjectType="1" UsedInObj="UFOCTR" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOFAC" Descr="Fixed Asset Class Table" TblNum="22" ObjectType="1" UsedInObj="UFOFAC" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOFAD" Descr="Fixed Asset Split Master Table" TblNum="40" ObjectType="3" UsedInObj="UFOFAD" LogTable="AU_FOFAD" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOFAT" Descr="Fixed Asset Master Table" TblNum="23" ObjectType="1" UsedInObj="UFOFAT" LogTable="AU_FOFAT" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOJTY" Descr="Fin. Document Master Table" TblNum="48" ObjectType="1" UsedInObj="UFOJTY" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_FOTLR" Descr="Conversion Diff. Rule Table" TblNum="43" ObjectType="1" UsedInObj="UFOTLR" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL10" Descr="Material Classification 10" TblNum="62" ObjectType="1" UsedInObj="UIICL10" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL2" Descr="Material Classification 2" TblNum="5" ObjectType="1" UsedInObj="UIICL2" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL3" Descr="Material Classification 3" TblNum="6" ObjectType="1" UsedInObj="UIICL3" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL4" Descr="Material Classification 4" TblNum="7" ObjectType="1" UsedInObj="UIICL4" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL5" Descr="Material Classification 5" TblNum="8" ObjectType="1" UsedInObj="UIICL5" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL6" Descr="Material Classification 6" TblNum="58" ObjectType="1" UsedInObj="UIICL6" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL7" Descr="Material Classification 7" TblNum="59" ObjectType="1" UsedInObj="UIICL7" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL8" Descr="Material Classification 8" TblNum="60" ObjectType="1" UsedInObj="UIICL8" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IICL9" Descr="Material Classification 9" TblNum="61" ObjectType="1" UsedInObj="UIICL9" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_IOTRN" Descr="Stock Transaction Master Table" TblNum="3" ObjectType="1" UsedInObj="UIOTRN" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_ITRN1" Descr="Stock Transaction Detail Table" TblNum="4" ObjectType="2" UsedInObj="UIOTRN" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PCST1" Descr="FM Quality Standard Table" TblNum="31" ObjectType="4" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PKTY1" Descr="Breed Standard Detail Table" TblNum="18" ObjectType="2" UsedInObj="UPOKTY" LogTable="AU_PKTY1" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PKTY2" Descr="Breed Standard Detail Table 2" TblNum="69" ObjectType="2" UsedInObj="UPOKTY" LogTable="AU_PKTY2" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POBRL" Descr="Batch Rule Maintenance" TblNum="47" ObjectType="1" UsedInObj="UPOBRL" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POBST" Descr="Batch Status Table" TblNum="66" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POCSI" Descr="Inspection Item Table" TblNum="27" ObjectType="1" UsedInObj="UPOCSI" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POCST" Descr="FM Quality Master Table" TblNum="30" ObjectType="3" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POFIN" Descr="Incubator Management" TblNum="15" ObjectType="1" UsedInObj="UPOFIN" LogTable="AU_POFIN" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POFOT" Descr="Hatchery Management" TblNum="16" ObjectType="1" UsedInObj="UPOFOT" LogTable="AU_POFOT" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POKTY" Descr="Breed Master Table" TblNum="17" ObjectType="1" UsedInObj="UPOKTY" LogTable="AU_POKTY" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POMED" Descr="Dosing Mark Table" TblNum="25" ObjectType="1" UsedInObj="UPOMED" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POMLV" Descr="Drug Residues Level Table" TblNum="67" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POPAN" Descr="Arrival Notice Weighing Table" TblNum="52" ObjectType="3" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POPLT" Descr="Process Route Table" TblNum="9" ObjectType="1" UsedInObj="UPOPLT" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POPQA" Descr="FM Quality Std. Master Table" TblNum="55" ObjectType="3" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POPRM" Descr="Production Parameter Table" TblNum="26" ObjectType="1" UsedInObj="UPOPRM" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POPRO" Descr="Process Table" TblNum="0" ObjectType="1" UsedInObj="UPOPRO" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_POTBP" Descr="Transporter Master Table" TblNum="19" ObjectType="1" UsedInObj="UPOTBP" LogTable="AU_POTBP" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PPAN1" Descr="Arrival Notice Detail Table" TblNum="53" ObjectType="4" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PPAN2" Descr="Arrival Notice Row Batch Table" TblNum="54" ObjectType="4" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PPLT1" Descr="Process Route Detail Table" TblNum="42" ObjectType="2" UsedInObj="UPOPLT" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PPQA1" Descr="FM Quality Detail Table" TblNum="56" ObjectType="4" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_PTBP1" Descr="Transporter Detail Table" TblNum="20" ObjectType="2" UsedInObj="UPOTBP" LogTable="AU_PTBP1" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SBC21" Descr="BP Classification 2 Sub Table" TblNum="50" ObjectType="2" UsedInObj="USBCL2" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SBCL2" Descr="BP Classification 2" TblNum="11" ObjectType="1" UsedInObj="USBCL2" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SBCL3" Descr="BP Classification 3" TblNum="12" ObjectType="1" UsedInObj="USBCL3" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SBCL4" Descr="BP Classification 4" TblNum="13" ObjectType="1" UsedInObj="USBCL4" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SBCL5" Descr="BP Classification 5" TblNum="14" ObjectType="1" UsedInObj="USBCL5" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SORIN" Descr="User Role" TblNum="46" ObjectType="0" UsedInObj="" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SORPL" Descr="Report List" TblNum="44" ObjectType="1" UsedInObj="USORPL" LogTable="" Archivable="N" ArchivDate="" />
+  <UserDefineTable TableName="U_SOTCT" Descr="Background Control Mgmt. Table" TblNum="45" ObjectType="1" UsedInObj="USOTCT" LogTable="" Archivable="N" ArchivDate="" />
+</dataSet_xmlFile>

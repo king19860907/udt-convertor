@@ -54,13 +54,13 @@ public class ItemLine {
         Raw raw = new Raw();
         raw.setFieldID(field.getFieldId());
         //TODO
-        raw.setDefaultValue("");
+        raw.setDefaultValue(field.getDflt());
         raw.setDescription(field.getDescr());
         raw.setEditSize(field.getEditSize());
         //TODO
         raw.setLinkedSystemObject(null);
         //TODO
-        raw.setLinkedTable(null);
+        raw.setLinkedTable(field.getrTable().trim());
         if(values != null){
             List<ValidValuesMD> mds = values.stream().map(value->{
                 ValidValuesMD md = new ValidValuesMD();
@@ -71,13 +71,13 @@ public class ItemLine {
             raw.setValidValuesMD(mds);
         }
         //TODO
-        raw.setLinkedUDO(null);
+        raw.setLinkedUDO(field.getRelUDO().trim());
         raw.setType(field.getTypeId());
         raw.setTableName(field.getTableId());
         raw.setSubType(field.getEditType().trim());
         raw.setName(field.getAliasId());
         //TODO
-        raw.setMandatory("tNO");
+        raw.setMandatory(field.getNotNull().trim());
         Gson gson = new Gson();
         body.setRaw(gson.toJson(raw));
         this.request.setBody(body);

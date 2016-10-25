@@ -1,12 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataSet_xmlFile>
-	<UserDefineObjectDetail Code="UCOCIT" SonNum="1" TableName="U_CCIT1" />
-	<UserDefineObjectDetail Code="UCOITM" SonNum="1" TableName="U_CITM1" />
-	<UserDefineObjectDetail Code="UFOCTR" SonNum="1" TableName="U_FCTR1" />
-	<UserDefineObjectDetail Code="UFOJTY" SonNum="1" TableName="U_FJTY1" />
-	<UserDefineObjectDetail Code="UIOTRN" SonNum="1" TableName="U_ITRN1" />
-	<UserDefineObjectDetail Code="UPOKTY" SonNum="1" TableName="U_PKTY1" />
-	<UserDefineObjectDetail Code="UPOKTY" SonNum="2" TableName="U_PKTY2" />
-	<UserDefineObjectDetail Code="UPOPLT" SonNum="1" TableName="U_PPLT1" />
-	<UserDefineObjectDetail Code="USBCL2" SonNum="1" TableName="U_SBC21" />
-	</dataSet_xmlFile>
+  <UserDefineObjectDetail Code="UCOCIT" SonNum="1" TableName="U_CCIT1" LogName="" SonName="U_CCIT1" />
+  <UserDefineObjectDetail Code="UCOITM" SonNum="1" TableName="U_CITM1" LogName="" SonName="U_CITM1" />
+  <UserDefineObjectDetail Code="UFOCTR" SonNum="1" TableName="U_FCTR1" LogName="" SonName="U_FCTR1" />
+  <UserDefineObjectDetail Code="UFOFAD" SonNum="1" TableName="U_FFAD1" LogName="AU_FFAD1" SonName="U_FFAD1" />
+  <UserDefineObjectDetail Code="UFOFAT" SonNum="1" TableName="U_FFAT1" LogName="AU_FFAT1" SonName="U_FFAT1" />
+  <UserDefineObjectDetail Code="UFOJTY" SonNum="1" TableName="U_FJTY1" LogName="" SonName="U_FJTY1" />
+  <UserDefineObjectDetail Code="UIOTRN" SonNum="1" TableName="U_ITRN1" LogName="" SonName="U_ITRN1" />
+  <UserDefineObjectDetail Code="UPOKTY" SonNum="1" TableName="U_PKTY1" LogName="AU_PKTY1" SonName="U_PKTY1" />
+  <UserDefineObjectDetail Code="UPOKTY" SonNum="2" TableName="U_PKTY2" LogName="AU_PKTY2" SonName="U_PKTY2" />
+  <UserDefineObjectDetail Code="UPOPLT" SonNum="1" TableName="U_PPLT1" LogName="" SonName="U_PPLT1" />
+  <UserDefineObjectDetail Code="UPOTBP" SonNum="1" TableName="U_PTBP1" LogName="AU_PTBP1" SonName="U_PTBP1" />
+  <UserDefineObjectDetail Code="USBCL2" SonNum="1" TableName="U_SBC21" LogName="" SonName="U_SBC21" />
+</dataSet_xmlFile>

@@ -32,10 +32,20 @@ public class UserDefineField {
 
     private Integer editSize;
 
+    private String dflt;
+
+    private String notNull;
+
+    private String rTable;
+
+    private String rField;
+
+    private String relUDO;
+
     public List<UserDefineField> getUserDefineFields(){
 
         InputStream in  = null;
-        List<UserDefineField> fields = new ArrayList<UserDefineField>();
+        List<UserDefineField> fields = new ArrayList<>();
         try{
             SAXReader reader = new SAXReader();
             in = this.getClass().getClassLoader().getResourceAsStream(fileLocation);
@@ -52,6 +62,11 @@ public class UserDefineField {
                 field.setSizeId(Integer.parseInt(ele.attribute("SizeID").getData().toString()));
                 field.setTableId(ele.attribute("TableID").getData().toString());
                 field.setTypeId(ele.attribute("TypeID").getData().toString());
+                field.setDflt(ele.attribute("Dflt").getData().toString());
+                field.setNotNull(ele.attribute("NotNull").getData().toString());
+                field.setrTable(ele.attribute("RTable").getData().toString());
+                field.setrField(ele.attribute("RField").getData().toString());
+                field.setRelUDO(ele.attribute("RelUDO").getData().toString());
                 fields.add(field);
             }
 
@@ -138,17 +153,63 @@ public class UserDefineField {
         this.typeId = typeId;
     }
 
+    public String getDflt() {
+        return dflt;
+    }
+
+    public void setDflt(String dflt) {
+        this.dflt = dflt;
+    }
+
+    public String getNotNull() {
+        return notNull;
+    }
+
+    public void setNotNull(String notNull) {
+        this.notNull = notNull;
+    }
+
+    public String getRelUDO() {
+        return relUDO;
+    }
+
+    public void setRelUDO(String relUDO) {
+        this.relUDO = relUDO;
+    }
+
+    public String getrField() {
+        return rField;
+    }
+
+    public void setrField(String rField) {
+        this.rField = rField;
+    }
+
+    public String getrTable() {
+        return rTable;
+    }
+
+    public void setrTable(String rTable) {
+        this.rTable = rTable;
+    }
+
     @Override
     public String toString() {
         return "UserDefineField{" +
-                "aliasId='" + aliasId + '\'' +
-                ", tableId='" + tableId + '\'' +
-                ", fieldId=" + fieldId +
+                "rField='" + rField + '\'' +
+                ", aliasId='" + aliasId + '\'' +
                 ", descr='" + descr + '\'' +
-                ", typeId='" + typeId + '\'' +
-                ", editType='" + editType + '\'' +
-                ", sizeId=" + sizeId +
+                ", dflt='" + dflt + '\'' +
                 ", editSize=" + editSize +
+                ", editType='" + editType + '\'' +
+                ", fieldId=" + fieldId +
+                ", fileLocation='" + fileLocation + '\'' +
+                ", notNull='" + notNull + '\'' +
+                ", relUDO='" + relUDO + '\'' +
+                ", rTable='" + rTable + '\'' +
+                ", sizeId=" + sizeId +
+                ", tableId='" + tableId + '\'' +
+                ", typeId='" + typeId + '\'' +
                 '}';
     }
 }
