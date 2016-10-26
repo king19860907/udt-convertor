@@ -44,8 +44,16 @@ public class ItemLine {
     }
 
     public ItemLine(UserDefineField field, List<UserValidValue> values){
-
-        this.name = field.getAliasId();
+        String oldTableName = field.getTableId();
+        String newTableName = null;
+        if(oldTableName.contains("@AU_")){
+            newTableName = "@MTC_EF_"+oldTableName.replaceAll("@AU_","");
+        }else if(oldTableName.contains("@U_")){
+            newTableName = "@MTC_EF_"+oldTableName.replaceAll("@U_","");
+        }else{
+            newTableName = oldTableName;
+        }
+        this.name = newTableName+"-"+field.getAliasId();
         this.request = new Request();
         this.request.setUrl("http://192.168.0.211:50000/b1s/v1/UserFieldsMD");
         this.request.setMethod("POST");
@@ -60,7 +68,16 @@ public class ItemLine {
         //TODO
         raw.setLinkedSystemObject(null);
         //TODO
-        raw.setLinkedTable(field.getrTable().trim());
+        String oldRelateTable = field.getrTable().trim();
+        String newRelateTable = "";
+        if(oldRelateTable.contains("AU_")){
+            newRelateTable = "MTC_EF_"+oldRelateTable.replaceAll("AU_","");
+        }else if(oldRelateTable.contains("U_")){
+            newRelateTable = "MTC_EF_"+oldRelateTable.replaceAll("U_","");
+        }else{
+            newRelateTable = oldRelateTable;
+        }
+        raw.setLinkedTable(newRelateTable);
         if(values != null){
             List<ValidValuesMD> mds = values.stream().map(value->{
                 ValidValuesMD md = new ValidValuesMD();
@@ -73,7 +90,7 @@ public class ItemLine {
         //TODO
         raw.setLinkedUDO(field.getRelUDO().trim());
         raw.setType(field.getTypeId());
-        raw.setTableName(field.getTableId());
+        raw.setTableName(newTableName);
         raw.setSubType(field.getEditType().trim());
         raw.setName(field.getAliasId());
         //TODO
