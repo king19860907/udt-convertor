@@ -47,7 +47,7 @@ public class ItemLine {
         String oldTableName = field.getTableId();
         String newTableName = null;
         if(oldTableName.contains("@AU_")){
-            newTableName = "@MTC_EF_"+oldTableName.replaceAll("@AU_","");
+            newTableName = "@AMTC_EF_"+oldTableName.replaceAll("@AU_","");
         }else if(oldTableName.contains("@U_")){
             newTableName = "@MTC_EF_"+oldTableName.replaceAll("@U_","");
         }else{
@@ -61,17 +61,14 @@ public class ItemLine {
         body.setMode("raw");
         Raw raw = new Raw();
         raw.setFieldID(field.getFieldId());
-        //TODO
         raw.setDefaultValue(field.getDflt());
         raw.setDescription(field.getDescr());
         raw.setEditSize(field.getEditSize());
-        //TODO
         raw.setLinkedSystemObject(null);
-        //TODO
         String oldRelateTable = field.getrTable().trim();
         String newRelateTable = "";
         if(oldRelateTable.contains("AU_")){
-            newRelateTable = "MTC_EF_"+oldRelateTable.replaceAll("AU_","");
+            newRelateTable = "AMTC_EF_"+oldRelateTable.replaceAll("AU_","");
         }else if(oldRelateTable.contains("U_")){
             newRelateTable = "MTC_EF_"+oldRelateTable.replaceAll("U_","");
         }else{
