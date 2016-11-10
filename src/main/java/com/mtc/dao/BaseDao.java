@@ -13,7 +13,16 @@ public class BaseDao extends SqlSessionDaoSupport {
 
     public List<Map<String,Object>> findResult(String tableName){
         Map<String,Object> params = new HashMap<>();
+        params.put("tableName",tableName);
         return getSqlSession().selectList("findResult",params);
+    }
+    
+    public void insertResult(String suffix,String tableName,Map<String,Object> values){
+    	Map<String,Object> params = new HashMap<>();
+    	params.put("tableName", tableName);
+    	params.put("suffix", suffix);
+    	params.put("map", values);
+    	getSqlSession().insert("insertResult", params);
     }
 
 }

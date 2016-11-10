@@ -32,5 +32,36 @@
     <bean id="baseDaoBySqlServer" class="com.mtc.dao.BaseDao">
         <property name="sqlSessionFactory" ref="sqlSessionFactorySqlServer"/>
     </bean>
+    
+    
+    
+    <bean id="dataSourceHana" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.sap.db.jdbc.Driver" />
+        <property name="url" value="jdbc:sap://192.168.0.211:30015/?autocommit=false" />
+        <property name="username" value="SYSTEM" />
+        <property name="password" value="Rc3wfebr" />
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="10"></property>
+        <!-- 连接池最大数量 -->
+        <property name="maxActive" value="100"></property>
+        <!-- 连接池最大空闲 -->
+        <property name="maxIdle" value="100"></property>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="50"></property>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="3000"></property>
+    </bean>
+
+    <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+    <bean id="sqlSessionFactoryHana" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSourceHana" />
+        <!-- 自动扫描mapping.xml文件 -->
+        <property name="configLocation" value="classpath:/mybatis/Configuration.xml"></property>
+    </bean>
+
+    <bean id="baseDaoByHana" class="com.mtc.dao.BaseDao">
+        <property name="sqlSessionFactory" ref="sqlSessionFactoryHana"/>
+    </bean>
 
 </beans>
