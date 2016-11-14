@@ -14,9 +14,9 @@ import com.mtc.dao.BaseDao;
  */
 public class ImpartAndExprotDataTest {
 	
-	public final static String tableName = "U_PYWOR1";
+	public final static String tableName = "OWHS";
 	
-	public final static String suffix = "SBODEMOUS_TABLE";
+	public final static String suffix = "SBODEMOUS";
 
     public static void main(String[] args) {
 
