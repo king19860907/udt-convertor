@@ -31,8 +31,9 @@ public class ImpartAndExprotDataTest {
 
         ImpartAndExprotDataTest test = new ImpartAndExprotDataTest();
         List<String> tableNames = test.getAllTalbeNames();
-        tableNames = tableNames.subList(tableNames.indexOf("RITM"),tableNames.size());
-        for(String talbeName : tableNames){
+        List<String> subTableNames = tableNames.subList(tableNames.indexOf("U_SURP2")+1,tableNames.size());
+        for(String talbeName : subTableNames){
+        	System.out.println("index:"+tableNames.indexOf(talbeName));
             System.out.println("tableName:"+talbeName);
             try{
                 test.copyDate(talbeName,suffix);
