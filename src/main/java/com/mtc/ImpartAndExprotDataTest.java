@@ -31,6 +31,7 @@ public class ImpartAndExprotDataTest {
 
         ImpartAndExprotDataTest test = new ImpartAndExprotDataTest();
         List<String> tableNames = test.getAllTalbeNames();
+        tableNames = tableNames.subList(tableNames.indexOf("RITM"),tableNames.size());
         for(String talbeName : tableNames){
             System.out.println("tableName:"+talbeName);
             try{
