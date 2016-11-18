@@ -4,6 +4,10 @@
 
 <mapper namespace="com.mtc.farm">
 
+	<select id="findAllTables" resultType="java.lang.String">
+		select name from sysobjects where xtype='u'
+	</select>
+
     <select id="findResult" parameterType="java.util.Map" resultType="java.util.HashMap">
         select * from ${tableName}
     </select>
@@ -19,5 +23,9 @@
 			</foreach> 
     	)
     </select>
+	
+	<delete id="deleteResult">
+		delete from ${suffix}."${tableName}"
+	</delete>
 
 </mapper>

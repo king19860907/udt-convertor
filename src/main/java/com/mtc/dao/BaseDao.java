@@ -25,4 +25,15 @@ public class BaseDao extends SqlSessionDaoSupport {
     	getSqlSession().insert("insertResult", params);
     }
 
+    public List<String> findAllTables(){
+        return getSqlSession().selectList("findAllTables",null);
+    }
+
+    public void deleteResult(String suffix,String tableName){
+        Map<String,Object> params = new HashMap<>();
+        params.put("tableName", tableName);
+        params.put("suffix", suffix);
+        getSqlSession().delete("deleteResult",params);
+    }
+
 }
