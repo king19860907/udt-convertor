@@ -9,7 +9,7 @@
     </select>
     
     <select id="insertResult" parameterType="java.util.Map">
-    	insert into ${suffix}.${tableName} (
+    	insert into ${suffix}."${tableName}" (
     		<foreach collection="map.keys" item="k" separator=",">   
 			    "${k}"
 			</foreach> 

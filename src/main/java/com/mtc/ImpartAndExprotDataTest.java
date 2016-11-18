@@ -14,7 +14,7 @@ import com.mtc.dao.BaseDao;
  */
 public class ImpartAndExprotDataTest {
 	
-	public final static String tableName = "OWHS";
+	public final static String tableName = "OCNT";
 	
 	public final static String suffix = "SBODEMOUS";
 
@@ -24,11 +24,23 @@ public class ImpartAndExprotDataTest {
         BaseDao baseDaoBySqlServer = (BaseDao)context.getBean("baseDaoBySqlServer");
         BaseDao baseDaoByHana = (BaseDao)context.getBean("baseDaoByHana");
         
-        List<Map<String,Object>> list=baseDaoBySqlServer.findResult(tableName);
+        String sqlTableName = "";
+        if(tableName.contains("@U_")){
+        	sqlTableName = "["+tableName+"]";
+        }else{
+        	sqlTableName = tableName;
+        }
+        List<Map<String,Object>> list=baseDaoBySqlServer.findResult(sqlTableName);
         System.out.println(list.size());
         list.stream().map(column->{
         	try{
-                baseDaoByHana.insertResult(suffix, tableName, column);
+        		String hanaTableName = "";
+        		if(tableName.contains("@U_")){
+        			hanaTableName = tableName.replaceAll("@U_", "@MTC_EF_");
+        		}else{
+        			hanaTableName = tableName;
+        		}
+                baseDaoByHana.insertResult(suffix, hanaTableName, column);
         	}catch(Exception e){
         		e.printStackTrace();
         	}
