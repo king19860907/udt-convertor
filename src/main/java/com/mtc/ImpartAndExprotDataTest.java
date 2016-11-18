@@ -30,7 +30,7 @@ public class ImpartAndExprotDataTest {
         String suffix = "SBODEMOUS";
 
         ImpartAndExprotDataTest test = new ImpartAndExprotDataTest();
-        List<String> tableNames = test.getAllTalbeNames();
+        /*List<String> tableNames = test.getAllTalbeNames();
         List<String> subTableNames = tableNames.subList(tableNames.indexOf("U_SURP2")+1,tableNames.size());
         for(String talbeName : subTableNames){
         	System.out.println("index:"+tableNames.indexOf(talbeName));
@@ -41,7 +41,8 @@ public class ImpartAndExprotDataTest {
                 e.printStackTrace();
             }
         }
-
+*/
+        test.copyDate("OUSR",suffix);
     }
 
     public List<String> getAllTalbeNames(){
