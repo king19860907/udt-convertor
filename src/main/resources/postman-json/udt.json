@@ -1,0 +1,902 @@
+{
+  "name": "udt_init",
+  "description": "",
+  "item": [
+    {
+      "name": "MTC_EF_AOCND",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_AOCND\",\n\t\"TableDescription\": \"查询条件表\",\n\t\"TableType\": \"bott_MasterData\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_AOIDB",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_AOIDB\",\n\t\"TableDescription\": \"合并账套维护表\",\n\t\"TableType\": \"bott_NoObject\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_AOPRM",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_AOPRM\",\n\t\"TableDescription\": \"系统参数表\",\n\t\"TableType\": \"bott_MasterData\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_AOUSP",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_AOUSP\",\n\t\"TableDescription\": \"用户进程\",\n\t\"TableType\": \"bott_NoObject\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_CCIT1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_CCIT1\",\n\t\"TableDescription\": \"成本分析项明细表\",\n\t\"TableType\": \"bott_MasterDataLines\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_CITM1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_CITM1\",\n\t\"TableDescription\": \"成本标准成本明细表\",\n\t\"TableType\": \"bott_DocumentLines\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_COCIT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_COCIT\",\n\t\"TableDescription\": \"成本分析项主表\",\n\t\"TableType\": \"bott_MasterData\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_COITM",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_COITM\",\n\t\"TableDescription\": \"成本标准成本主表\",\n\t\"TableType\": \"3\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FCTR1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FCTR1\",\n\t\"TableDescription\": \"成本中心与工序对应明细表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FJTY1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FJTY1\",\n\t\"TableDescription\": \"财务凭证类型明细表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOAJT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOAJT\",\n\t\"TableDescription\": \"凭证草稿表\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOCTR",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOCTR\",\n\t\"TableDescription\": \"成本中心与工序对应表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOJTY",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOJTY\",\n\t\"TableDescription\": \"财务凭证类型主表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOTLR",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOTLR\",\n\t\"TableDescription\": \"转换差异规则表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL10",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL10\",\n\t\"TableDescription\": \"物料分类十\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL2",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL2\",\n\t\"TableDescription\": \"物料分类二\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL3",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL3\",\n\t\"TableDescription\": \"物料分类三\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL4",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL4\",\n\t\"TableDescription\": \"物料分类四\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL5",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL5\",\n\t\"TableDescription\": \"物料分类五\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL6",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL6\",\n\t\"TableDescription\": \"物料分类六\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL7",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL7\",\n\t\"TableDescription\": \"物料分类七\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL8",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL8\",\n\t\"TableDescription\": \"物料分类八\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IICL9",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IICL9\",\n\t\"TableDescription\": \"物料分类九\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_IOTRN",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_IOTRN\",\n\t\"TableDescription\": \"库存交易事务主表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_ITRN1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_ITRN1\",\n\t\"TableDescription\": \"库存交易事务明细表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PKTY1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PKTY1\",\n\t\"TableDescription\": \"品种标准明细表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PKTY2",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PKTY2\",\n\t\"TableDescription\": \"品种标准明细表2\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POBRL",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POBRL\",\n\t\"TableDescription\": \"批次规则维护\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POBST",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POBST\",\n\t\"TableDescription\": \"批次状态表\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POFIN",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POFIN\",\n\t\"TableDescription\": \"孵化器管理\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POFOT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POFOT\",\n\t\"TableDescription\": \"出雏器管理\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POKTY",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POKTY\",\n\t\"TableDescription\": \"品种主表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POMED",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POMED\",\n\t\"TableDescription\": \"加药标示表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": "加药标示表"
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POMLV",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POMLV\",\n\t\"TableDescription\": \"药残级别表\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POPLT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POPLT\",\n\t\"TableDescription\": \"工艺路线表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POPRO",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POPRO\",\n\t\"TableDescription\": \"工序表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PPLT1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PPLT1\",\n\t\"TableDescription\": \"工艺路线表明细表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SBC21",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SBC21\",\n\t\"TableDescription\": \"业务伙伴分类二子表\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SBCL2",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SBCL2\",\n\t\"TableDescription\": \"业务伙伴分类2\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SBCL3",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SBCL3\",\n\t\"TableDescription\": \"业务伙伴分类3\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SBCL4",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SBCL4\",\n\t\"TableDescription\": \"业务伙伴分类4\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SBCL5",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SBCL5\",\n\t\"TableDescription\": \"业务伙伴分类5\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SORIN",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SORIN\",\n\t\"TableDescription\": \"用户角色\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SORPL",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SORPL\",\n\t\"TableDescription\": \"报表清单\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_SOTCT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_SOTCT\",\n\t\"TableDescription\": \"后台控制管理表\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_EECCTR",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_EECCTR\",\n\t\"TableDescription\": \"EE_CostCenter_Mapping\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_EEEMP",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_EEEMP\",\n\t\"TableDescription\": \"EE_Employer_Mapping\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_EEGLACCT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_EEGLACCT\",\n\t\"TableDescription\": \"EE_GLAccount_Mapping\",\n\t\"TableType\": \"0\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FFAD1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FFAD1\",\n\t\"TableDescription\": \"Fixed Assets Split Schedule\",\n\t\"TableType\": \"4\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FFAT1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FFAT1\",\n\t\"TableDescription\": \"Fixed Assets Card Sub Table\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOFAC",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOFAC\",\n\t\"TableDescription\": \"Fixed Asset Class Table\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOFAD",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOFAD\",\n\t\"TableDescription\": \"Fixed Asset Split Master Table\",\n\t\"TableType\": \"3\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_FOFAT",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_FOFAT\",\n\t\"TableDescription\": \"Fixed Asset Master Table\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PCST1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PCST1\",\n\t\"TableDescription\": \"FM Quality Standard Table\",\n\t\"TableType\": \"4\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POCSI",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POCSI\",\n\t\"TableDescription\": \"Inspection Item Table\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POCST",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POCST\",\n\t\"TableDescription\": \"FM Quality Master Table\",\n\t\"TableType\": \"3\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POPAN",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POPAN\",\n\t\"TableDescription\": \"Arrival Notice Weighing Table\",\n\t\"TableType\": \"3\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POPQA",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POPQA\",\n\t\"TableDescription\": \"FM Quality Std. Master Table\",\n\t\"TableType\": \"3\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POPRM",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POPRM\",\n\t\"TableDescription\": \"Production Parameter Table\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_POTBP",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_POTBP\",\n\t\"TableDescription\": \"Transporter Master Table\",\n\t\"TableType\": \"1\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PPAN1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PPAN1\",\n\t\"TableDescription\": \"Arrival Notice Detail Table\",\n\t\"TableType\": \"4\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PPAN2",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PPAN2\",\n\t\"TableDescription\": \"Arrival Notice Row Batch Table\",\n\t\"TableType\": \"4\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PPQA1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PPQA1\",\n\t\"TableDescription\": \"FM Quality Detail Table\",\n\t\"TableType\": \"4\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "MTC_EF_PTBP1",
+      "request": {
+        "url": "http://192.168.0.211:50000/b1s/v1/UserTablesMD",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"TableName\": \"MTC_EF_PTBP1\",\n\t\"TableDescription\": \"Transporter Detail Table\",\n\t\"TableType\": \"2\"\n}"
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}

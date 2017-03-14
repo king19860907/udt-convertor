@@ -23,6 +23,10 @@ public class Raw {
 
     private String TableName;
 
+    private String TableDescription;
+
+    private String TableType;
+
     private Integer FieldID;
 
     private Integer EditSize;
@@ -145,5 +149,21 @@ public class Raw {
 
     public void setValidValuesMD(List<com.mtc.postman.dto.ValidValuesMD> validValuesMD) {
         ValidValuesMD = validValuesMD;
+    }
+
+    public String getTableDescription() {
+        return TableDescription;
+    }
+
+    public void setTableDescription(String tableDescription) {
+        TableDescription = tableDescription;
+    }
+
+    public String getTableType() {
+        return TableType;
+    }
+
+    public void setTableType(String tableType) {
+        TableType = tableType;
     }
 }
