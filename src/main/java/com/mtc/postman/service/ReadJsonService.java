@@ -65,8 +65,9 @@ public class ReadJsonService {
     }
 
     public static void main(String[] args) {
-        ReadJsonService service = new ReadJsonService("/postman-json/udt.json");
-        System.out.println(service.readJson());
+        //ReadJsonService service = new ReadJsonService("/postman-json/udt.json");
+        ReadJsonService service = new ReadJsonService("/postman-json/udf.json");
+        //System.out.println(service.readJson());
         Item item = service.toObject(Item.class);
         System.out.println(item);
         for(ItemLine line : item.getItem()){
