@@ -80,10 +80,10 @@ public class CreateDocService {
 
     public static void main(String[] args) {
         CreateDocService service = new CreateDocService();
-        service.setReadJsonService(new ReadJsonService("/postman-json/udf.json"));
+        service.setReadJsonService(new ReadJsonService("/postman-json/udo.json"));
         service.setSrcPath("/doc-template/");
-        service.setDestPath("udf.doc");
-        service.setFileName("udf.ftl");
+        service.setDestPath("udo.doc");
+        service.setFileName("udo.ftl");
 
         service.createDoc();
     }

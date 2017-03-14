@@ -7,7 +7,13 @@ import java.util.List;
  */
 public class Raw {
 
+    private String Code;
+
     private String Name;
+
+    private String ObjectType;
+
+    private String MenuCaption;
 
     private String Type;
 
@@ -165,5 +171,29 @@ public class Raw {
 
     public void setTableType(String tableType) {
         TableType = tableType;
+    }
+
+    public String getCode() {
+        return Code;
+    }
+
+    public void setCode(String code) {
+        Code = code;
+    }
+
+    public String getMenuCaption() {
+        return MenuCaption;
+    }
+
+    public void setMenuCaption(String menuCaption) {
+        MenuCaption = menuCaption;
+    }
+
+    public String getObjectType() {
+        return ObjectType;
+    }
+
+    public void setObjectType(String objectType) {
+        ObjectType = objectType;
     }
 }
