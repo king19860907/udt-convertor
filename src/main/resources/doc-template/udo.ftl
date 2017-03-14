@@ -7,15 +7,15 @@
     <o:Author>Microsoft Office User</o:Author>
     <o:LastAuthor>Microsoft Office User</o:LastAuthor>
     <o:Revision>2</o:Revision>
-    <o:TotalTime>0</o:TotalTime>
-    <o:Created>2017-03-14T07:28:00Z</o:Created>
-    <o:LastSaved>2017-03-14T07:28:00Z</o:LastSaved>
+    <o:TotalTime>1</o:TotalTime>
+    <o:Created>2017-03-14T07:55:00Z</o:Created>
+    <o:LastSaved>2017-03-14T07:55:00Z</o:LastSaved>
     <o:Pages>2</o:Pages>
-    <o:Words>24</o:Words>
-    <o:Characters>140</o:Characters>
+    <o:Words>28</o:Words>
+    <o:Characters>165</o:Characters>
     <o:Lines>1</o:Lines>
     <o:Paragraphs>1</o:Paragraphs>
-    <o:CharactersWithSpaces>163</o:CharactersWithSpaces>
+    <o:CharactersWithSpaces>192</o:CharactersWithSpaces>
     <o:Version>15</o:Version>
   </o:DocumentProperties>
   <w:fonts>
@@ -579,6 +579,7 @@
       <wsp:rsid wsp:val="001D2AD8"/>
       <wsp:rsid wsp:val="00226E04"/>
       <wsp:rsid wsp:val="0025346B"/>
+      <wsp:rsid wsp:val="00266640"/>
       <wsp:rsid wsp:val="00540C17"/>
       <wsp:rsid wsp:val="005C329C"/>
       <wsp:rsid wsp:val="005F0472"/>
@@ -592,10 +593,11 @@
       <wsp:rsid wsp:val="00CA5976"/>
       <wsp:rsid wsp:val="00CD5E8A"/>
       <wsp:rsid wsp:val="00D04A83"/>
+      <wsp:rsid wsp:val="00D14C84"/>
       <wsp:rsid wsp:val="00DE2B57"/>
-      <wsp:rsid wsp:val="00E17CA6"/>
       <wsp:rsid wsp:val="00E4752A"/>
-      <wsp:rsid wsp:val="00FB2961"/>
+      <wsp:rsid wsp:val="00F462BB"/>
+      <wsp:rsid wsp:val="00FE6FBC"/>
     </wsp:rsids>
   </w:docPr>
   <w:body>
@@ -1290,8 +1292,8 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               <w:br w:type="page"/>
             </w:r>
           </w:p>
-<#list items as item>
-    <w:tbl>
+        <#list items as item>
+            <w:tbl>
             <w:tblPr>
               <w:tblW w:w="0" w:type="auto"/>
               <w:tblBorders>
@@ -1305,13 +1307,13 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               <w:tblLook w:val="04A0"/>
             </w:tblPr>
             <w:tblGrid>
-              <w:gridCol w:w="1668"/>
-              <w:gridCol w:w="7568"/>
+              <w:gridCol w:w="1809"/>
+              <w:gridCol w:w="7427"/>
             </w:tblGrid>
-            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="008119FF">
+            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="00D14C84">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="1668" w:type="dxa"/>
+                  <w:tcW w:w="1809" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="00CA5976" wsp:rsidP="008119FF">
@@ -1329,7 +1331,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="7568" w:type="dxa"/>
+                  <w:tcW w:w="7427" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="00DE2B57" wsp:rsidP="008119FF">
@@ -1343,10 +1345,10 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
                 </w:p>
               </w:tc>
             </w:tr>
-            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="008119FF">
+            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="00D14C84">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="1668" w:type="dxa"/>
+                  <w:tcW w:w="1809" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="00C74E50" wsp:rsidP="008119FF">
@@ -1361,7 +1363,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="7568" w:type="dxa"/>
+                  <w:tcW w:w="7427" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="001A1A53" wsp:rsidP="008119FF">
@@ -1375,10 +1377,10 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
                 </w:p>
               </w:tc>
             </w:tr>
-            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="008119FF">
+            <w:tr wsp:rsidR="00D04A83" wsp:rsidTr="00D14C84">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="1668" w:type="dxa"/>
+                  <w:tcW w:w="1809" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="0072659C" wsp:rsidP="005F27C6">
@@ -1393,7 +1395,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="7568" w:type="dxa"/>
+                  <w:tcW w:w="7427" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="00D04A83" wsp:rsidRDefault="00153332" wsp:rsidP="008119FF">
@@ -1409,10 +1411,10 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
                 </w:p>
               </w:tc>
             </w:tr>
-            <w:tr wsp:rsidR="005F27C6" wsp:rsidTr="008119FF">
+            <w:tr wsp:rsidR="005F27C6" wsp:rsidTr="00D14C84">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="1668" w:type="dxa"/>
+                  <w:tcW w:w="1809" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="005F27C6" wsp:rsidRDefault="0072659C" wsp:rsidP="005F27C6">
@@ -1427,7 +1429,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="7568" w:type="dxa"/>
+                  <w:tcW w:w="7427" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="005F27C6" wsp:rsidRDefault="001D2AD8" wsp:rsidP="008119FF">
@@ -1443,10 +1445,10 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
                 </w:p>
               </w:tc>
             </w:tr>
-            <w:tr wsp:rsidR="005F27C6" wsp:rsidTr="008119FF">
+            <w:tr wsp:rsidR="005F27C6" wsp:rsidTr="00D14C84">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="1668" w:type="dxa"/>
+                  <w:tcW w:w="1809" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="005F27C6" wsp:rsidRDefault="00B44DB5" wsp:rsidP="005F27C6">
@@ -1464,7 +1466,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="7568" w:type="dxa"/>
+                  <w:tcW w:w="7427" w:type="dxa"/>
                   <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
                 </w:tcPr>
                 <w:p wsp:rsidR="005F27C6" wsp:rsidRDefault="00CD5E8A" wsp:rsidP="008119FF">
@@ -1480,6 +1482,46 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
                 </w:p>
               </w:tc>
             </w:tr>
+            <w:tr wsp:rsidR="00D14C84" wsp:rsidTr="00D14C84">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1809" w:type="dxa"/>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                </w:tcPr>
+                <w:p wsp:rsidR="00D14C84" wsp:rsidRDefault="00D14C84" wsp:rsidP="005F27C6">
+                  <w:pPr>
+                    <w:widowControl/>
+                    <w:jc w:val="left"/>
+                    <w:rPr>
+                      <w:rFonts w:hint="fareast"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:rFonts w:hint="fareast"/>
+                    </w:rPr>
+                    <w:t>Father Menu ID</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="7427" w:type="dxa"/>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                </w:tcPr>
+                <w:p wsp:rsidR="00D14C84" wsp:rsidRDefault="00D14C84" wsp:rsidP="008119FF">
+                  <w:pPr>
+                    <w:widowControl/>
+                    <w:jc w:val="left"/>
+                  </w:pPr>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r>
+                    <w:t>${item.fatherMenuID}</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                </w:p>
+              </w:tc>
+            </w:tr>
           </w:tbl>
           <w:p wsp:rsidR="00226E04" wsp:rsidRDefault="00226E04" wsp:rsidP="00226E04">
             <w:pPr>
@@ -1487,7 +1529,7 @@ J9n9/wEuNonV73vcaAAAAABJRU5ErkJggk==
               <w:jc w:val="left"/>
             </w:pPr>
           </w:p>
-</#list>
+        </#list>
           <w:p wsp:rsidR="00135EEE" wsp:rsidRDefault="00135EEE" wsp:rsidP="00226E04">
             <w:pPr>
               <w:widowControl/>

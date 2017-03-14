@@ -43,6 +43,8 @@ public class Raw {
 
     private String LinkedSystemObject;
 
+    private String FatherMenuID;
+
     private List<ValidValuesMD> ValidValuesMD;
 
     public String getDefaultValue() {
@@ -195,5 +197,13 @@ public class Raw {
 
     public void setObjectType(String objectType) {
         ObjectType = objectType;
+    }
+
+    public String getFatherMenuID() {
+        return FatherMenuID==null?"":FatherMenuID;
+    }
+
+    public void setFatherMenuID(String fatherMenuID) {
+        FatherMenuID = fatherMenuID;
     }
 }

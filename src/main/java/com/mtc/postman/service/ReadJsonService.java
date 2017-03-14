@@ -71,7 +71,7 @@ public class ReadJsonService {
         Item item = service.toObject(Item.class);
         System.out.println(item);
         for(ItemLine line : item.getItem()){
-            System.out.println(line.getRequest().getBody().getRawObject(Raw.class).getTableName());
+            System.out.println(line.getRequest().getBody().getRawObject(Raw.class).getFatherMenuID());
         }
     }
 
