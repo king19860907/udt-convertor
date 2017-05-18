@@ -32,4 +32,19 @@
 		delete from ${suffix}."${tableName}"
 	</delete>
 
+	<update id="update" parameterType="java.util.Map">
+		update ${suffix}."${tableName}" set
+		<foreach collection="setMap.keys" item="k" separator=",">
+			<if test="null != setMap[k]">
+				"${k}" = #{setMap[${k}]}
+			</if>
+		</foreach>
+		where 1=1 and
+		<foreach collection="whereMap.keys" item="k" separator="and">
+			<if test="null != whereMap[k]">
+				"${k}" = #{whereMap[${k}]}
+			</if>
+		</foreach>
+	</update>
+
 </mapper>

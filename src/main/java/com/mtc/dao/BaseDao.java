@@ -43,4 +43,13 @@ public class BaseDao extends SqlSessionDaoSupport {
         getSqlSession().delete("deleteResult",params);
     }
 
+    public void update(String suffix,String tableName,Map<String,Object> setMap,Map<String,Object> whereMap){
+        Map<String,Object> params = new HashMap<>();
+        params.put("tableName", tableName);
+        params.put("suffix", suffix);
+        params.put("setMap",setMap);
+        params.put("whereMap",whereMap);
+        getSqlSession().update("update",params);
+    }
+
 }
