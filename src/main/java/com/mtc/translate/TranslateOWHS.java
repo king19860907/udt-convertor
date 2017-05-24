@@ -1,9 +1,8 @@
-package com.mtc.util;
+package com.mtc.translate;
 
 import com.mtc.dao.BaseDao;
 import org.apache.commons.collections.map.HashedMap;
 import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.Validate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -18,7 +17,8 @@ import java.util.regex.Pattern;
 /**
  * Created by majun on 5/18/17.
  */
-public class TranslateOprc {
+@SuppressWarnings("Duplicates")
+public class TranslateOWHS {
 
     private BaseDao baseDaoByHana;
 
@@ -26,7 +26,9 @@ public class TranslateOprc {
 
     private Map<String,String> replaceMap = new HashedMap();
 
-    public TranslateOprc(){
+    private String table_name = "OWHS";
+
+    public TranslateOWHS(){
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring/application-context.xml");
         //baseDaoBySqlServer = (BaseDao)context.getBean("baseDaoBySqlServer");
         baseDaoByHana = (BaseDao)context.getBean("baseDaoByHana");
@@ -43,7 +45,7 @@ public class TranslateOprc {
         replaceMap.put("十","10");
 
 
-        translateMap.put("Pullet青年鸡场[0-9]+号第[0-9]+栋","Pullet {0}# House {1}#");
+      /*  translateMap.put("Pullet青年鸡场[0-9]+号第[0-9]+栋","Pullet {0}# House {1}#");
         translateMap.put("Breeder产蛋鸡场[0-9]+号第[0-9]+栋","Breeder {0}# House {1}#");
         translateMap.put("Trial Farm(.*)试验农场第(.*)栋","Trial Farm House {0}#");
         translateMap.put("实验农场第(.*)批","Trial Farm Batch {0}#");
@@ -51,11 +53,20 @@ public class TranslateOprc {
         translateMap.put("Agri-Trial Farm-实验农场","Agri-Trial Farm");
         translateMap.put("Growout 肉鸡场(.*)号第(.*)栋","Growout {0}# House {1}#");
         translateMap.put("青年鸡[0-9]+场第[0-9]+批","Pullet {0}# Batch {1}#");
-        translateMap.put("肉鸡(.*)场第(.*)批","Growout {0}# House {1}#");
+        translateMap.put("肉鸡(.*)场第(.*)批","Growout {0}# House {1}#");*/
+        translateMap.put("蛋鸡(.*)场仓库","Breeder WareHouse {0}#");
+        translateMap.put("孵化(.*)厂仓库","Hatchery WareHouse {0}#");
+        translateMap.put("青年鸡(.*)场仓库","Pullet WareHouse {0}#");
+        translateMap.put("试验农场仓库","Trial Farm WareHouse");
+        translateMap.put("肉鸡(.*)场仓库","Growout WareHouse {0}#");
+        translateMap.put("疫苗仓","M&V WareHouse");
+        translateMap.put("药品仓库","药品仓库");
+        translateMap.put("肉鸡行政仓库","肉鸡行政仓库");
+
     }
 
     public void translate(){
-        List<Map<String,Object>> list = baseDaoByHana.findResultHana("OPRC","SBO_AG_FARM");
+        List<Map<String,Object>> list = baseDaoByHana.findResultHana(table_name,"SBO_AG_FARM");
         for(String key : translateMap.keySet()){
             String express = translateMap.get(key);
             translate(list,key,express);
@@ -64,19 +75,19 @@ public class TranslateOprc {
 
     private void translate(List<Map<String,Object>> list,String key,String express){
         list.stream().forEach(map->{
-            String beforeFarmName = map.get("PrcName") == null ? "":map.get("PrcName").toString();
+            String beforeFarmName = map.get("WhsName") == null ? "":map.get("WhsName").toString();
             if(contains(beforeFarmName,key)){
                 System.out.println("before:"+beforeFarmName);
                 String afterFarmName = replace(beforeFarmName,express);
                 System.out.println("after:"+afterFarmName);
                 Map<String,Object> setMap = new HashMap<>();
-                setMap.put("PrcName",afterFarmName);
+                setMap.put("WhsName",afterFarmName);
 
                 Map<String,Object> whereMap = new HashMap<>();
-                whereMap.put("PrcCode",map.get("PrcCode"));
+                whereMap.put("WhsCode",map.get("WhsCode"));
                 //System.out.println(setMap);
                 //System.out.println(whereMap);
-                baseDaoByHana.update("SBO_AG_FARM","OPRC",setMap,whereMap);
+                baseDaoByHana.update("SBO_AG_FARM",table_name,setMap,whereMap);
             }
         });
     }
@@ -117,7 +128,7 @@ public class TranslateOprc {
     }
 
     public static void main(String[] args) {
-        TranslateOprc oprc = new TranslateOprc();
+        TranslateOWHS oprc = new TranslateOWHS();
         oprc.translate();
         //Pullet青年鸡场1号第1栋
         //Pullet 3# House 1#
