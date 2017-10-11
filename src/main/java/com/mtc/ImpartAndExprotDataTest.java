@@ -29,7 +29,7 @@ public class ImpartAndExprotDataTest {
 
     public static void main(String[] args) {
         //String tableName = "OCNT";
-        String suffix = "SBODEMOUS";
+        String suffix = "MTC_US_EF";
         List<String> excludeTables = Arrays.asList("ONNM","NNM1","NNM2","NNM3","NNM4","NNM5","NNM6");
         
         ImpartAndExprotDataTest test = new ImpartAndExprotDataTest();
@@ -49,7 +49,7 @@ public class ImpartAndExprotDataTest {
         //	}
         //}
 
-        test.copyDate("@U_ITRN1",suffix);
+        test.copyDate("U_PYWOR1",suffix);
     }
 
     public List<String> getAllTalbeNames(){

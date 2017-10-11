@@ -50,7 +50,7 @@ public class TranslateOCRD {
     }
 
     public void translate(){
-        List<Map<String,Object>> list = baseDaoByHana.findResultHana(table_name,"SBO_AG_FARM");
+        List<Map<String,Object>> list = baseDaoByHana.findResultHana(table_name,"SBO_FM");
         //for(String key : translateMap.keySet()){
             //String express = translateMap.get(key);
             //translate(list,key,express);
@@ -73,13 +73,13 @@ public class TranslateOCRD {
                 String afterFarmName = PingyinUtil.getPingYin(beforeFarmName);
                 System.out.println("before:"+beforeFarmName + "  after:"+afterFarmName);
                 Map<String,Object> setMap = new HashMap<>();
-                setMap.put("CardName",afterFarmName);
+                setMap.put("Address",afterFarmName);
 
                 Map<String,Object> whereMap = new HashMap<>();
                 whereMap.put("CardCode",map.get("CardCode"));
                 //System.out.println(setMap);
                 //System.out.println(whereMap);
-                baseDaoByHana.update("SBO_AG_FARM",table_name,setMap,whereMap);
+                baseDaoByHana.update("SBO_FM",table_name,setMap,whereMap);
             //}
         });
     }

@@ -7,9 +7,9 @@
     <bean id="dataSourceSqlServer" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-        <property name="url" value="jdbc:sqlserver://192.168.10.12:1433; DatabaseName=SBO_AG_Farm" />
-        <property name="username" value="mtc" />
-        <property name="password" value="Mtcsys" />
+        <property name="url" value="jdbc:sqlserver://192.168.10.8:1433; DatabaseName=SBO_AG_Farm" />
+        <property name="username" value="sa" />
+        <property name="password" value="sasa" />
         <!-- 初始化连接大小 -->
         <property name="initialSize" value="10"></property>
         <!-- 连接池最大数量 -->
@@ -38,9 +38,9 @@
     <bean id="dataSourceHana" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.sap.db.jdbc.Driver" />
-        <property name="url" value="jdbc:sap://192.168.11.211:30015/?autocommit=false" />
+        <property name="url" value="jdbc:sap://192.168.6.211:30015/?autocommit=false" />
         <property name="username" value="SYSTEM" />
-        <property name="password" value="Rc3wfebr" />
+        <property name="password" value="N3ewkjwy" />
         <!-- 初始化连接大小 -->
         <property name="initialSize" value="10"></property>
         <!-- 连接池最大数量 -->
